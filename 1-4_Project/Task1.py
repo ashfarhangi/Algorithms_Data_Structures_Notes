@@ -17,20 +17,45 @@ How many different telephone numbers are there in the records?
 Print a message:
 "There are <count> different telephone numbers in the records."
 """
-def split():
+print(texts[1][0])
+
+def preprocess():
+	temp = []
+	for i in range(len(texts)):
+		temp.append(texts[i][0])
+		temp.append(texts[i][1])
+	for j in range(len(calls)):
+		temp.append(calls[j][0])
+		temp.append(calls[j][1])
+	temp = set(temp)
+	print("There are {} different telephone numbers in the records.".format(len(temp)))
+# def split_isnot():
+# 	count = 0
+# 	for i in range(len(texts)):
+# 		if(texts[i][0] not in texts):
+# 			count +=1
+# 	print(len(texts))
+# 	print(count)
+# 	for i in range(len(calls)):
+# 		if(texts[i][0] not in texts):
+# 			count +=1
+# 	print(count)
+# preprocess()
+# split_isnot()
+# def split():
 	
-def unique_num():
-	total_num =[]
-	for item in texts:
-		total_num.append(str(item))
-	print(len(total_num))
-	for item in calls:
-		total_num.append(str(item))
-	print(total_num)
-	unique_numbers_count = set(total_num)
-	print("total entry:",len(total_num),"unique numbers: ",len(unique_numbers_count))
-	return unique_numbers_count
-unique_num()
+# def unique_num():
+# 	total_num =[]
+# 	for item in texts:
+# 		total_num.append(str(item))
+# 	print(len(total_num))
+# 	for item in calls:
+# 		total_num.append(str(item))
+# 	print(total_num)
+# 	unique_numbers_count = set(total_num)
+# 	print("total entry:",len(total_num),"unique numbers: ",len(unique_numbers_count))
+# 	return unique_numbers_count
+# unique_num()
 
 """Feedbacks"""
 # def once_call_text_numbers(text,call):
