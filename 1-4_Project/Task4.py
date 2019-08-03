@@ -24,4 +24,24 @@ Print a message:
 <list of numbers>
 The list of numbers should be print out one per line in lexicographic order with no duplicates.
 """
-
+def tele_market_detect():
+	tele_numbers = []
+	out_going = []
+	for item in calls:
+		out_going.append(item[1])
+	for i in range(len(calls)):
+		if (calls[i][0] not in out_going):
+			tele_numbers.append(calls[i][0])
+			tele_numbers1=set(tele_numbers)
+	print(len(tele_numbers1))	
+	for i in range(len(tele_numbers1)):
+		if(tele_numbers[i] in texts[i][0]):
+			tele_numbers1.remove(tele_numbers1[i])
+		if(tele_numbers[i] in texts[i][1]):
+			tele_numbers1.remove(tele_numbers1[i])	
+	print(len(tele_numbers1))
+	print("These numbers could be telemarketers: ")
+	for item in tele_numbers1:
+		print("{}\n".format(item))
+	return 
+tele_market_detect()

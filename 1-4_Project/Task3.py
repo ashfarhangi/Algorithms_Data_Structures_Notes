@@ -43,3 +43,37 @@ Print the answer as a part of a message::
 to other fixed lines in Bangalore."
 The percentage should have 2 decimal digits
 """
+def list_area_codes():
+	area_list = []
+	for item in calls:
+		# mobile
+		if (item[0][0]=="7"or item[0][0]=="8" or item[0][0]=="9" ):
+			area_list.append(item[0][0:4])
+		# Telemarketing
+		if (item[0][0:3]=="140" ):
+			area_list.append(item[0][0:3])
+			# Fixed
+		if (item[0][0]=="("):
+			if(item[0][4]==")"):
+				area_list.append(item[0][1:4])
+			if(item[0][5]==")"):
+				area_list.append(item[0][1:5])
+		#
+	print("The numbers called by people in Bangalore have codes: ")		
+	for item in set(area_list):
+		print("{}\n".format(item))
+	print("List of area codes: {}".format(len(set(area_list))))
+list_area_codes()
+def both_080():
+	count = 0
+	both = 0
+	for item in calls:
+		# print(item[0][0:5])
+		if (item[0][0:5] or item[1][0:5]=="(080)"):
+			count += 1
+			if (item[0][0:5] and item[1][0:5]=="(080)"):
+				both +=1
+	print("percentage both (080): % {:0.2f} ".format(100*both/count))
+
+both_080()
+# print(calls)
