@@ -12,11 +12,7 @@ I highly recommend the following materials:
 [Udacity nano degree: Data Structures and
 Algorithms](https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256)
 
-Introduction to Algorithms, 3rd Edition (The MIT Press)
-=======================================================
-
-[University of Central Florida Course: DESIGN & ANALYSIS ALGORITHMS
-2019](%3Chttp://www.cs.ucf.edu/~sharma/COT5405%3E)
+University of Central Florida Course: DESIGN & ANALYSIS ALGORITHMS 2019
 
 Udacity nano degree notes for job interview
 
