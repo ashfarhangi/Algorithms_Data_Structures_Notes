@@ -2,8 +2,8 @@ Data-Structures-and-Algorithms
 ==============================
 
 This is the TLDR summary of two courses on Data Structures and Algorithms. I
-summarized everything I learned from these materials.  
-  
+summarized everything I learned from these materials.
+
 I’ve included the code for each concept in Python. I would suggest to implement
 this short code for your projects.
 
@@ -12,11 +12,11 @@ I highly recommend the following materials:
 [Udacity nano degree: Data Structures and
 Algorithms](https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256)
 
-[Introduction to Algorithms, 3rd Edition (The MIT Press)](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844)
-=====================================================================================================================================
+Introduction to Algorithms, 3rd Edition (The MIT Press)
+=======================================================
 
-[University of Central Florida Course: DESIGN & ANALYSIS ALGORITHMS 2019](
-<http://www.cs.ucf.edu/~sharma/COT5405>)
+[University of Central Florida Course: DESIGN & ANALYSIS ALGORITHMS
+2019](%3Chttp://www.cs.ucf.edu/~sharma/COT5405%3E)
 
 Udacity nano degree notes for job interview
 
