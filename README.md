@@ -1,10 +1,30 @@
-# Data-Structures-and-Algorithms
-Data Structures &amp; Algorithms Nanodegree Program from Udacity A repository for notes and projects 
+Data-Structures-and-Algorithms
+==============================
 
-[Udacity nano degree: Data Structures and Algorithms]=(https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256)
+This is the TLDR summary of two courses on Data Structures and Algorithms. I
+summarized everything I learned from these materials.  
+  
+I’ve included the code for each concept in Python. I would suggest to implement
+this short code for your projects.
+
+I highly recommend the following materials:
+
+[Udacity nano degree: Data Structures and
+Algorithms](https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256)
 UCF Courses: DESIGN & ANALYSIS ALGORITHMS [Fall 2019]
 
-Course Objectives: Understanding of various types of  techniques for algorithms design and (run time) analysis in detail. Also, a gentle introduction to several advanced data structures. 
+Udacity nano degree for job interview and CLRS book
 
-Course Overview:  Review of mathematical background, sorting and searching, algorithm design techniques such as divide and conquer, greedy approach, dynamic programming, worst case and average case analysis techniques, data structures such as binary search trees and various heaps, graph algorithms, string algorithms and geometric data structures, advanced topics (P, NP, NP-Complete, etc) if time permits. 
+Data Structures & Algorithms Nanodegree Program from Udacity A repository for
+notes and projects
 
+Course Objectives: Understanding of various types of techniques for algorithms
+design and (run time) analysis in detail. Also, a gentle introduction to several
+advanced data structures.
+
+Course Overview: Review of mathematical background, sorting and searching,
+algorithm design techniques such as divide and conquer, greedy approach, dynamic
+programming, worst case and average case analysis techniques, data structures
+such as binary search trees and various heaps, graph algorithms, string
+algorithms and geometric data structures, advanced topics (P, NP, NP-Complete,
+etc) if time permits.
