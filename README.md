@@ -11,9 +11,18 @@ I highly recommend the following materials:
 
 [Udacity nano degree: Data Structures and
 Algorithms](https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256)
-UCF Courses: DESIGN & ANALYSIS ALGORITHMS [Fall 2019]
 
-Udacity nano degree for job interview and CLRS book
+[Introduction to Algorithms, 3rd Edition (The MIT Press)](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844)
+=====================================================================================================================================
+
+[University of Central Florida Course: DESIGN & ANALYSIS ALGORITHMS 2019](
+<http://www.cs.ucf.edu/~sharma/COT5405>)
+
+Udacity nano degree notes for job interview
+
+CLRS book for more in depth
+
+UCF course for solving different challenges
 
 Data Structures & Algorithms Nanodegree Program from Udacity A repository for
 notes and projects
