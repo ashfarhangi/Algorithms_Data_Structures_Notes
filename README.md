@@ -33,3 +33,9 @@ programming, worst case and average case analysis techniques, data structures
 such as binary search trees and various heaps, graph algorithms, string
 algorithms and geometric data structures, advanced topics (P, NP, NP-Complete,
 etc) if time permits.
+
+Comparison
+==============================
+Finding the smallest of n numbers:(n-1)
+Finding the biggest of n numbers:(n-1)
+Finding the smallest and the biggest of n numbers:(2n-3)
