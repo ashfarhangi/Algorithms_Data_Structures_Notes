@@ -36,6 +36,6 @@ etc) if time permits.
 
 Comparison
 ==============================
-Finding the smallest of n numbers:(n-1)
-Finding the biggest of n numbers:(n-1)
-Finding the smallest and the biggest of n numbers:(2n-3)
+Finding the smallest of n numbers:(n-1)   
+Finding the biggest of n numbers:(n-1)   
+Finding the smallest and the biggest of n numbers:(2n-3)   
