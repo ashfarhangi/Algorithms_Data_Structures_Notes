@@ -143,6 +143,62 @@ TLDR: Binary search (Middle, Middle, O (log(n)).:
 
 **1. Linear search: O(n)**
 
-**2. Binary Search:** O(log(n)+1) ( Why Name ? find a postion of binary)
+**2. Binary Search:** O(log(n)+1) ( Why it is called binary search? find a
+postion of binary)
 
 Middle, Middle, Middle.
+
+Sorting (Middle, Middle, O (log(n)).:
+=====================================
+
+Bubble sort
+
+**Merge sort:**
+
+Using divide and conquer, first, we divide 2 by 2
+
+![](media/d60404983770ccf9700e87bf00057d26.png)
+
+then we compare the elements
+
+![](media/aedaa435d36c4f0f3cbf29d50034fdd2.png)
+
+Efficiency:
+
+O (n Log (n))
+
+Why we are seeing log (n) in our efficiency? Hint: same as binary search problem
+
+**Quick sort:**
+
+Pick one and move it around
+
+![](media/efb964d97b2648ca21e04162697e01e1.png)
+
+  
+Why it can be chosen as the most efficient algorithm?
+
+Because on average it will outperform merge sort.
+
+On each step we are performing two moving around.
+
+![](media/2aab5b68c0b0e7ea62486cfe66e08caa.png)
+
+(pivot = Last element)First move we move
+
+(start-\>pivot) . (pivot\>piviot-1) ( pivot -1-\>start)
+
+![](media/4def5b724f6f15c6b099ce425f8c4e09.png)
+
+I advise to practice this for cementing the algorithm.
+
+![](media/c018057d901372ab5b57e93742036550.png)
+
+Everything less than 8 and 10 sweap results in:  
+Everythin less than 8 are already below 8 so cemented
+
+![](media/c018057d901372ab5b57e93742036550.png)
+
+**Efficiency:**
+
+**O(n2) if it’s already sorted. Why? Wasting time**
