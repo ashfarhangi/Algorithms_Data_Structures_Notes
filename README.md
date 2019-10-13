@@ -1,4 +1,4 @@
-Data-Structures-and-Algorithms
+Data Structures and Algorithms
 ==============================
 
 This is the summary of multiple materials on **Data Structures and Algorithms**.
@@ -148,20 +148,21 @@ postion of binary)
 
 Middle, Middle, Middle.
 
-Sorting (Middle, Middle, O (log(n)).:
-=====================================
+Sorting:
+========
 
 **Bubble sort:**
 
 Simplest and most inefficient one O(n\^2)
 
-**Merge sort:**
+Merge Sort(divide, merge):
+==========================
 
 Using divide and conquer, first, we divide 2 by 2
 
 ![](media/d60404983770ccf9700e87bf00057d26.png)
 
-then we compare the elements
+Then we compare the elements
 
 ![](media/aedaa435d36c4f0f3cbf29d50034fdd2.png)
 
@@ -171,7 +172,8 @@ O (n Log (n))
 
 Why we are seeing log (n) in our efficiency? Hint: same as binary search problem
 
-**Quick sort:**
+QuickSort(divide, merge):
+=========================
 
 Pick one and move it around
 
@@ -185,15 +187,33 @@ On each step we are performing two moving around.
 
 ![](media/2aab5b68c0b0e7ea62486cfe66e08caa.png)
 
-(pivot = Last element)First move we move
+(Pivot = Last element) First move we move
 
-(start-\>pivot) . (pivot\>piviot-1) ( pivot -1-\>start)
+1.  Select right P
+
+2.  PL LS SP (Shift Pivot to left , Swap start and left)
+
+3.  Compare Start with pivot. If (Start \> Pivot repeat step 2)
+
+4.  Else move to second start
+
+![](media/b41c1c2d2548c9e6940e3506ec84f34f.png)
 
 ![](media/4def5b724f6f15c6b099ce425f8c4e09.png)
 
 I advise to practice this for cementing the algorithm.
 
+![](media/4a3923fde43ff67cc4066b14626677b0.png)
+
+**Great no need to move the original pivot anymore (2 is at the right place)**
+
 ![](media/c018057d901372ab5b57e93742036550.png)
+
+Check 2 with lefts
+
+New pivot on right. Compare
+
+Moving phase
 
 Everything less than 8 and 10 sweap results in:  
 Everythin less than 8 are already below 8 so cemented
@@ -203,3 +223,12 @@ Everythin less than 8 are already below 8 so cemented
 **Efficiency:**
 
 **O(n2) if it’s already sorted. Why? Wasting time**
+
+Technical Interview
+
+![](media/4fe578f16ea7ad1e9fd04d71fdea444a.png)
+
+What are 7 steps in every technical interview?
+
+Heaps:
+======
