@@ -224,11 +224,123 @@ Everythin less than 8 are already below 8 so cemented
 
 **O(n2) if it’s already sorted. Why? Wasting time**
 
+Heaps:
+======
+
 Technical Interview
+===================
+
+What are the most important 7 steps?
 
 ![](media/4fe578f16ea7ad1e9fd04d71fdea444a.png)
 
 What are 7 steps in every technical interview?
 
-Heaps:
-======
+1.  **Clarifying the question { To prove you wont dive into the problem without
+    learning more about it}**
+
+Q:  
+A: Thanks it’s a pleasure to do interview with you
+
+Q: Given a 2D matrix of m, Just 0 and 1. Count the number of islands in the
+matrix [island is a group of 1 or just 1 by itself.]
+
+A: ok so, we are given a 2D matrix which will look something like this.:
+
+[[1,0,1],[1,1,1]]
+
+SO our goal is find the number of islands. IS the outcome the number? Or X? So
+if the are connected (I[1,0,0],[0,1,0],[0,0,1])diagonally? Does that consider an
+island?
+
+So what we supposed to do is to find the number of
+
+{Just want to check Im solving the right problem…}
+
+1.  Generating inputs and outputs:
+
+>   So my input is matrix of 0 s ,1 s (Integers, strings? No)
+
+>   Output: Integer (\# of islands) (1s or group of ones)
+
+1.  Generating test cases:
+
+>   {So just to test some cases{Special}}
+
+>   {Can we get Is it ok we have }? Yes
+
+Q: number of island in a matrix 
+
+1.Clarify the question 
+
+A[[1,0,0]],[1,1,0]]
+
+{Just to make sure I’m solving the right problem….}
+
+2. Generating input/output
+
+Input matrix of integers 
+
+Output integers ( number of islands 0- max{n}) 
+
+3. {Trick \#1 you can always answer the null case to interviewer.}{ I have a
+feeling that it might be useful in future steps} **Test cases** [**Edge cases**]
+[ Possible weird inputs that we have to handle A[] or none object 
+
+{Null - empty- Write a code that doesnt crash}
+
+4. **Brainstorming** So if we have null, for sure we have 0 so there would be no
+islands in this case.
+
+But also we can have this as input (the input she wants)   {So what I am
+thinking here} is start at the first element . So i need a counter **variable**
+and I **initialze** it there. And **increment** it by 1.
+
+We get to Zero. Thats not part of any island so I need to keep track of X.
+Hmmmm. Maybe I can look at the elements on top and bottom and check if they are
+on the same island and keep track of it. Since there is no above that. We get a
+run time error. Maybe it could a case of data structure we can solve this. {This
+might be a breath first search problem. I can look at the elements around it.
+**Set to mark** as **visited** and **keep going**
+
+**If you are stuck?** This represent a type of data structure and algorithm .
+Merge sort maybe… Keep talking
+
+**5. Runtime anaylsis **
+
+When I’m looking all the elements in matrix. My guess is it could be nxM.
+
+Well it seems like the optimal solution. So i think i start and jump on coding
+now.
+
+from collections import deque
+
+def islandCounter(m):
+
+if(M == none or M==[[]]):
+
+return 0
+
+numIsland = 0 \#initialize island variable
+
+c= len(M[0])
+
+r = len(M)
+
+for i in range(0,r):
+
+for j in range(o,c):
+
+if (M[i][j] ==1):
+
+numIsland +=1
+
+findPartsOfIsland(M,i,j,r,c)
+
+def findPartsOfIsland(M,i,j,r,c):
+
+q = deque
+
+q.append([i,j])
+
+while(len(q)!= 0):
