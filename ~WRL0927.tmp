@@ -236,21 +236,13 @@ What are the most important 7 steps?
 
 ![](media/4fe578f16ea7ad1e9fd04d71fdea444a.png)
 
-The context should be asking questions and brainstorm at first. As you go on you
-rather than asking question everystep you must make statements and justify them.
-
-{so we can have null input like [[]] Is that right?} { I have a feeling that it
-might be useful in future steps}
-
-Example: So it contains integers right? So Null input is another input that we
-can have.
-
-Q:  
-A: Thanks it’s a pleasure to do interview with you. {Positive mindset} {Don’t
-give up}
+What are 7 steps in every technical interview?
 
 1.  **Clarifying the question {To prove you wont dive into the problem without
     learning more about it}**
+
+Q:  
+A: Thanks it’s a pleasure to do interview with you
 
 Q: Given a 2D matrix of m, Just 0 and 1. Count the number of islands in the
 matrix [island is a group of 1 or just 1 by itself.]
@@ -260,8 +252,8 @@ A: ok so, we are given a 2D matrix which will look something like this.:
 [[1,0,1],[1,1,1]]
 
 So, our goal is find the number of islands. Is the outcome the number? Or X? So
-if the are connected (I[1,0,0],[0,1,0],[0,0,1]) diagonally? Does that consider
-an island?
+if the are connected (I[1,0,0],[0,1,0],[0,0,1])diagonally? Does that consider an
+island?
 
 So what we supposed to do is to find the number of
 
@@ -269,37 +261,38 @@ So what we supposed to do is to find the number of
 
 1.  Generating inputs and outputs:
 
->   So my input is matrix of 0 s, 1 s (Integers, strings? No)
+>   So my input is matrix of 0 s ,1 s (Integers, strings? No)
 
 >   Output: Integer (\# of islands) (1s or group of ones)
 
 1.  Generating test cases:
 
->   {So just to test some cases {Special}}
+>   {So just to test some cases{Special}}
 
 >   {Can we get Is it ok we have }? Yes
 
 Q: number of island in a matrix 
 
-**1.Clarify the question **
+1.Clarify the question 
 
-A[[1,0,0]],[1,1,0]]{Just to make sure I’m solving the right problem….}
+A[[1,0,0]],[1,1,0]]
 
-**2.Generating input/output**
+{Just to make sure I’m solving the right problem….}
 
-Input matrix of integers.Output integers (number of islands 0- max{n}) 
+1.  Generating input/output
 
-**3.Test cases**: {Trick \#1 you can always answer the null case to
-interviewer.}{ I have a feeling that it might be useful in future steps} **Test
-cases** [**Edge cases**] [ Possible weird inputs that we have to handle A[] or
-none object.
+Input matrix of integers 
+
+Output integers ( number of islands 0- max{n}) 
+
+1.  {Trick \#1 you can always answer the null case to interviewer.}{ I have a
+    feeling that it might be useful in future steps} **Test cases** [**Edge
+    cases**] [ Possible weird inputs that we have to handle A[] or none object 
 
 {Null - empty- Write a code that doesnt crash}
 
-**4.Brainstorming:** {Variables that needs to initialized} {so I need to track
-X} {And keep tracking} {Runtime error} {Data structure brainstorm algorithms and
-data structures} {Represent graph DFS problem} So if we have null, for sure we
-have 0 so there would be no islands in this case.
+1.  **Brainstorming** So if we have null, for sure we have 0 so there would be
+    no islands in this case.
 
 But also we can have this as input (the input she wants)   {So what I am
 thinking here} is start at the first element . So i need a counter **variable**
@@ -317,20 +310,39 @@ Merge sort maybe… Keep talking
 
 **5. Runtime anaylsis **
 
-When I’m looking all the elements in matrix I’m looking at them atlease once so
-I’m thinking the runtime would be nXm where N is the number of rows and M is the
-number of columns. Well it seems like the optimal solution. So i think i start
-and jump on coding now.
+When I’m looking all the elements in matrix. My guess is it could be nxM.
 
-**6.Coding**
+Well it seems like the optimal solution. So i think i start and jump on coding
+now.
 
-So I’m calling my mainfunction islandCounter():
+from collections import deque
 
-Variable a,b,c If() While() For()
+def islandCounter(m):
 
-**7.Debugging**
+if(M == none or M==[[]]):
 
-Test cases: input None[] -\> return 0 so its working
+return 0
 
-So [[1,0,1],[1,1,0]]. Go ahead, that looks good. Now I’m adding both of these.
-And I probably {} O looks like I forget to {add a return} Looks like it works.
+numIsland = 0 \#initialize island variable
+
+c= len(M[0])
+
+r = len(M)
+
+for i in range(0,r):
+
+for j in range(o,c):
+
+if (M[i][j] ==1):
+
+numIsland +=1
+
+findPartsOfIsland(M,i,j,r,c)
+
+def findPartsOfIsland(M,i,j,r,c):
+
+q = deque
+
+q.append([i,j])
+
+while(len(q)!= 0):

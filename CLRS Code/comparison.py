@@ -36,3 +36,12 @@ def biggestAndSmallest(a):
 	print(key,o)
 
 biggestAndSmallest(a)
+
+array1 = [1,2,3,-5,1,0,2]
+"""
+input: [1,3,5]
+output: [1,5]
+
+
+"""
+def smallestAndLargest() 
