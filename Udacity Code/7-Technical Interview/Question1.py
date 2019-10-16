@@ -19,6 +19,7 @@ def islandFinder(m):
 				#Now we need breath first search?
 				findPartsOfIsland(i,j)
 	print(numIsland)
+	# need to learn depth search first algorithm for trees.
 def findPartsOfIsland(i,j):
 	q = deque()
 	q.append([i,j])
