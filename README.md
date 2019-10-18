@@ -229,10 +229,53 @@ Everythin less than 8 are already below 8 so cemented
 Heaps:
 ======
 
-Technical Interview
-===================
+Greedy Algorithm (Best option at each step):<br>
+================================================
+
+![](media/44d46f063fca4872104e6edb1a26e63d.png)
+
+ATM machine : 1,2,10,20,50,100\<
+
+Return: n\$ the number of bills should be minimized
+
+21\$ = 20 +1
+
+N= 365 – (3x100)- (1x50)-(1x10) – (1x 5)
+
+What about Target = 8?
+
+Example:
+
+Min operations example {see code}: By using while, in dividing numbers in half
+// == / and using
+
+Graph algorithm (data structure that shows relation):
+=====================================================
+
+Graph(Tree is a subgroup of graph,Network) Nodes(Vertex) Edges
+
+![](media/d5e6c36b1d10faaaf0d1ae40e3182cca.png)
+
+Directed (non-directed), Acyclic, Connectivity
+
+Connectivity: You friends (social circle)
+
+As seen below, the right graph is stronger. In contrast, the left group can be
+dissolved if one of the connections drops.
+
+![](media/4c958b1e2b2f2c7a5c54dc66945872db.png)
+
+Technical Interview (CIOT BRCD) (cute bird)
+===========================================
 
 What are the most important 7 steps?
+
+{Memory Palace} Imagine a cute bird sees a giant worm that is shaped like a Q
+{Question}. First the bird pour water on the worm (clarify). Then it find the
+tail and head (I, O). Then it will taste the worm (Test). It will use its brain
+to decide how to eat it (Brainstorm). Then a big white eagle comes and its needs
+to calculate the runtime of eating the worm {Runtime analysis}. Then it will
+start eating it with If, For, {Code} and Debugs it (No more bug).
 
 ![](media/4fe578f16ea7ad1e9fd04d71fdea444a.png)
 
@@ -334,3 +377,8 @@ Test cases: input None[] -\> return 0 so its working
 
 So [[1,0,1],[1,1,0]]. Go ahead, that looks good. Now I’m adding both of these.
 And I probably {} O looks like I forget to {add a return} Looks like it works.
+
+Python programming:
+===================
+
+![](media/28a37a2c4d8794faa0b22686c21cbece.png)
