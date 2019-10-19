@@ -227,6 +227,19 @@ Everythin less than 8 are already below 8 so cemented
 Heaps:
 ======
 
+Dynamic programming:
+====================
+
+![](media/8772bf182b4a29b45fa854704118a58d.png)
+
+Knapsack. Imagine the skyrim world where you can carry a certain weight in your
+bag.
+
+How you optimize which items with their weights to carry with you?
+
+1.  Brute force: check all the solutions and pick the best one: O(2\^n) possible
+    combinations
+
 Technical Interview
 ===================
 
@@ -277,20 +290,20 @@ A[[1,0,0]],[1,1,0]]
 
 {Just to make sure I’m solving the right problem….}
 
-2. Generating input/output
+1.  Generating input/output
 
 Input matrix of integers 
 
 Output integers ( number of islands 0- max{n}) 
 
-3. {Trick \#1 you can always answer the null case to interviewer.}{ I have a
-feeling that it might be useful in future steps} **Test cases** [**Edge cases**]
-[ Possible weird inputs that we have to handle A[] or none object 
+1.  {Trick \#1 you can always answer the null case to interviewer.}{ I have a
+    feeling that it might be useful in future steps} **Test cases** [**Edge
+    cases**] [ Possible weird inputs that we have to handle A[] or none object 
 
 {Null - empty- Write a code that doesnt crash}
 
-4. **Brainstorming** So if we have null, for sure we have 0 so there would be no
-islands in this case.
+1.  **Brainstorming** So if we have null, for sure we have 0 so there would be
+    no islands in this case.
 
 But also we can have this as input (the input she wants)   {So what I am
 thinking here} is start at the first element . So i need a counter **variable**
@@ -344,3 +357,13 @@ q = deque
 q.append([i,j])
 
 while(len(q)!= 0):
+
+**6. Debug:**
+
+And run it by
+
+{oh looks like I forget to}
+
+Looks like it works.
+
+ 

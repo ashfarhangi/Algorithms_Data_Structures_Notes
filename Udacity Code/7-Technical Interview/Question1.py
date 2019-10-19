@@ -26,7 +26,7 @@ def findPartsOfIsland(i,j):
 	while(len(q!=0)):
 		x = q.pop()
 		y = i[1]
-
+# Talk about the purpose of your code
 # use a que to get 
 # First thing i want do to is initiatlize
 # since we are using. First
