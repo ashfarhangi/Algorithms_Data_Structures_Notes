@@ -36,3 +36,4 @@ def biggestAndSmallest(a):
 	print(key,o)
 
 biggestAndSmallest(a)
+
