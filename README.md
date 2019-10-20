@@ -243,17 +243,73 @@ How you optimize which items with their weights to carry with you?
 Technical Interview
 ===================
 
+======= Greedy Algorithm (Best option at each step):  
+================================================
+
+![](media/44d46f063fca4872104e6edb1a26e63d.png)
+
+ATM machine : 1,2,10,20,50,100\<
+
+Return: n\$ the number of bills should be minimized
+
+21\$ = 20 +1
+
+N= 365 – (3x100)- (1x50)-(1x10) – (1x 5)
+
+What about Target = 8?
+
+Example:
+
+Min operations example {see code}: By using while, in dividing numbers in half
+// == / and using
+
+Graph algorithm (data structure that shows relation):
+=====================================================
+
+Graph(Tree is a subgroup of graph,Network) Nodes(Vertex) Edges
+
+![](media/d5e6c36b1d10faaaf0d1ae40e3182cca.png)
+
+Directed (non-directed), Acyclic, Connectivity
+
+Connectivity: You friends (social circle)
+
+As seen below, the right graph is stronger. In contrast, the left group can be
+dissolved if one of the connections drops.
+
+![](media/4c958b1e2b2f2c7a5c54dc66945872db.png)
+
+Technical Interview (CIOT BRCD) (cute bird)
+===========================================
+
+>   600e13278473db6cc40a022e79c37c0e0baa2b56
+
 What are the most important 7 steps?
+
+{Memory Palace} Imagine a cute bird sees a giant worm that is shaped like a Q
+{Question}. First the bird pour water on the worm (clarify). Then it find the
+tail and head (I, O). Then it will taste the worm (Test). It will use its brain
+to decide how to eat it (Brainstorm). Then a big white eagle comes and its needs
+to calculate the runtime of eating the worm {Runtime analysis}. Then it will
+start eating it with If, For, {Code} and Debugs it (No more bug).
 
 ![](media/4fe578f16ea7ad1e9fd04d71fdea444a.png)
 
-What are 7 steps in every technical interview?
+The context should be asking questions and brainstorm at first. As you go on you
+rather than asking question everystep you must make statements and justify them.
 
-1.  **Clarifying the question { To prove you wont dive into the problem without
-    learning more about it}**
+{so we can have null input like [] Is that right?} { I have a feeling that it
+might be useful in future steps}
+
+Example: So it contains integers right? So Null input is another input that we
+can have.
 
 Q:  
-A: Thanks it’s a pleasure to do interview with you
+A: Thanks it’s a pleasure to do interview with you. {Positive mindset} {Don’t
+give up}
+
+1.  **Clarifying the question {To prove you wont dive into the problem without
+    learning more about it}**
 
 Q: Given a 2D matrix of m, Just 0 and 1. Count the number of islands in the
 matrix [island is a group of 1 or just 1 by itself.]
@@ -262,9 +318,9 @@ A: ok so, we are given a 2D matrix which will look something like this.:
 
 [[1,0,1],[1,1,1]]
 
-SO our goal is find the number of islands. IS the outcome the number? Or X? So
-if the are connected (I[1,0,0],[0,1,0],[0,0,1])diagonally? Does that consider an
-island?
+So, our goal is find the number of islands. Is the outcome the number? Or X? So
+if the are connected (I[1,0,0],[0,1,0],[0,0,1]) diagonally? Does that consider
+an island?
 
 So what we supposed to do is to find the number of
 
@@ -272,25 +328,25 @@ So what we supposed to do is to find the number of
 
 1.  Generating inputs and outputs:
 
->   So my input is matrix of 0 s ,1 s (Integers, strings? No)
+>   So my input is matrix of 0 s, 1 s (Integers, strings? No)
 
 >   Output: Integer (\# of islands) (1s or group of ones)
 
 1.  Generating test cases:
 
->   {So just to test some cases{Special}}
+>   {So just to test some cases {Special}}
 
 >   {Can we get Is it ok we have }? Yes
 
 Q: number of island in a matrix 
 
-1.Clarify the question 
+**1.Clarify the question **
 
-A[[1,0,0]],[1,1,0]]
+A[[1,0,0]],[1,1,0]]{Just to make sure I’m solving the right problem….}
 
-{Just to make sure I’m solving the right problem….}
+**2.Generating input/output**
 
-1.  Generating input/output
+\<\<\<\<\<\<\< HEAD 1. Generating input/output
 
 Input matrix of integers 
 
@@ -298,12 +354,26 @@ Output integers ( number of islands 0- max{n}) 
 
 1.  {Trick \#1 you can always answer the null case to interviewer.}{ I have a
     feeling that it might be useful in future steps} **Test cases** [**Edge
-    cases**] [ Possible weird inputs that we have to handle A[] or none object 
+    cases**] [ Possible weird inputs that we have to handle A or none object 
 
 {Null - empty- Write a code that doesnt crash}
 
 1.  **Brainstorming** So if we have null, for sure we have 0 so there would be
-    no islands in this case.
+    no islands in this case. ======= Input matrix of integers.Output integers
+    (number of islands 0- max{n}) 
+
+**3.Test cases**: {Trick \#1 you can always answer the null case to
+interviewer.}{ I have a feeling that it might be useful in future steps} **Test
+cases** [**Edge cases**] [ Possible weird inputs that we have to handle A or
+none object.
+
+{Null - empty- Write a code that doesnt crash}
+
+**4.Brainstorming:** {Variables that needs to initialized} {so I need to track
+X} {And keep tracking} {Runtime error} {Data structure brainstorm algorithms and
+data structures} {Represent graph DFS problem} So if we have null, for sure we
+have 0 so there would be no islands in this case. \>\>\>\>\>\>\>
+600e13278473db6cc40a022e79c37c0e0baa2b56
 
 But also we can have this as input (the input she wants)   {So what I am
 thinking here} is start at the first element . So i need a counter **variable**
@@ -321,42 +391,28 @@ Merge sort maybe… Keep talking
 
 **5. Runtime anaylsis **
 
-When I’m looking all the elements in matrix. My guess is it could be nxM.
+When I’m looking all the elements in matrix I’m looking at them atlease once so
+I’m thinking the runtime would be nXm where N is the number of rows and M is the
+number of columns. Well it seems like the optimal solution. So i think i start
+and jump on coding now.
 
-Well it seems like the optimal solution. So i think i start and jump on coding
-now.
+**6.Coding**
 
-from collections import deque
+So I’m calling my mainfunction islandCounter():
 
-def islandCounter(m):
+Variable a,b,c If() While() For()
 
-if(M == none or M==[[]]):
+**7.Debugging**
 
-return 0
+Test cases: input None -\> return 0 so its working
 
-numIsland = 0 \#initialize island variable
+So [[1,0,1],[1,1,0]]. Go ahead, that looks good. Now I’m adding both of these.
+And I probably {} O looks like I forget to {add a return} Looks like it works.
 
-c= len(M[0])
+Python programming:
+===================
 
-r = len(M)
-
-for i in range(0,r):
-
-for j in range(o,c):
-
-if (M[i][j] ==1):
-
-numIsland +=1
-
-findPartsOfIsland(M,i,j,r,c)
-
-def findPartsOfIsland(M,i,j,r,c):
-
-q = deque
-
-q.append([i,j])
-
-while(len(q)!= 0):
+\<\<\<\<\<\<\< HEAD while(len(q)!= 0):
 
 **6. Debug:**
 
@@ -366,4 +422,6 @@ And run it by
 
 Looks like it works.
 
- 
+![](media/28a37a2c4d8794faa0b22686c21cbece.png)
+
+\>\>\>\>\>\>\> 600e13278473db6cc40a022e79c37c0e0baa2b56
