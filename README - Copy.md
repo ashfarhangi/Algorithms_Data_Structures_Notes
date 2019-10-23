@@ -15,7 +15,9 @@ I highly recommend the following materials by the order of importance:
 
 3.  Data Structure in C book
 
-4.  CLRS book [If you are an academic].
+**Interview practice:**
+
+online peer-peer practice: http://Pramp.com
 
 TLDR Objectives: Understanding of various types of techniques for algorithms
 design and (run time) analysis in detail. Also, a gentle introduction to several
@@ -227,6 +229,7 @@ Everythin less than 8 are already below 8 so cemented
 Heaps:
 ======
 
+<<<<<<< HEAD
 Dynamic programming:
 ====================
 
@@ -242,8 +245,8 @@ How you optimize which items with their weights to carry with you?
 
 Technical Interview
 ===================
-
-======= Greedy Algorithm (Best option at each step):  
+=======
+Greedy Algorithm (Best option at each step):<br>
 ================================================
 
 ![](media/44d46f063fca4872104e6edb1a26e63d.png)
@@ -281,8 +284,7 @@ dissolved if one of the connections drops.
 
 Technical Interview (CIOT BRCD) (cute bird)
 ===========================================
-
->   600e13278473db6cc40a022e79c37c0e0baa2b56
+>>>>>>> 600e13278473db6cc40a022e79c37c0e0baa2b56
 
 What are the most important 7 steps?
 
@@ -298,7 +300,7 @@ start eating it with If, For, {Code} and Debugs it (No more bug).
 The context should be asking questions and brainstorm at first. As you go on you
 rather than asking question everystep you must make statements and justify them.
 
-{so we can have null input like [] Is that right?} { I have a feeling that it
+{so we can have null input like [[]] Is that right?} { I have a feeling that it
 might be useful in future steps}
 
 Example: So it contains integers right? So Null input is another input that we
@@ -346,7 +348,8 @@ A[[1,0,0]],[1,1,0]]{Just to make sure I’m solving the right problem….}
 
 **2.Generating input/output**
 
-\<\<\<\<\<\<\< HEAD 1. Generating input/output
+<<<<<<< HEAD
+1.  Generating input/output
 
 Input matrix of integers 
 
@@ -354,17 +357,18 @@ Output integers ( number of islands 0- max{n}) 
 
 1.  {Trick \#1 you can always answer the null case to interviewer.}{ I have a
     feeling that it might be useful in future steps} **Test cases** [**Edge
-    cases**] [ Possible weird inputs that we have to handle A or none object 
+    cases**] [ Possible weird inputs that we have to handle A[] or none object 
 
 {Null - empty- Write a code that doesnt crash}
 
 1.  **Brainstorming** So if we have null, for sure we have 0 so there would be
-    no islands in this case. ======= Input matrix of integers.Output integers
-    (number of islands 0- max{n}) 
+    no islands in this case.
+=======
+Input matrix of integers.Output integers (number of islands 0- max{n}) 
 
 **3.Test cases**: {Trick \#1 you can always answer the null case to
 interviewer.}{ I have a feeling that it might be useful in future steps} **Test
-cases** [**Edge cases**] [ Possible weird inputs that we have to handle A or
+cases** [**Edge cases**] [ Possible weird inputs that we have to handle A[] or
 none object.
 
 {Null - empty- Write a code that doesnt crash}
@@ -372,8 +376,8 @@ none object.
 **4.Brainstorming:** {Variables that needs to initialized} {so I need to track
 X} {And keep tracking} {Runtime error} {Data structure brainstorm algorithms and
 data structures} {Represent graph DFS problem} So if we have null, for sure we
-have 0 so there would be no islands in this case. \>\>\>\>\>\>\>
-600e13278473db6cc40a022e79c37c0e0baa2b56
+have 0 so there would be no islands in this case.
+>>>>>>> 600e13278473db6cc40a022e79c37c0e0baa2b56
 
 But also we can have this as input (the input she wants)   {So what I am
 thinking here} is start at the first element . So i need a counter **variable**
@@ -404,7 +408,7 @@ Variable a,b,c If() While() For()
 
 **7.Debugging**
 
-Test cases: input None -\> return 0 so its working
+Test cases: input None[] -\> return 0 so its working
 
 So [[1,0,1],[1,1,0]]. Go ahead, that looks good. Now I’m adding both of these.
 And I probably {} O looks like I forget to {add a return} Looks like it works.
@@ -412,7 +416,8 @@ And I probably {} O looks like I forget to {add a return} Looks like it works.
 Python programming:
 ===================
 
-\<\<\<\<\<\<\< HEAD while(len(q)!= 0):
+<<<<<<< HEAD
+while(len(q)!= 0):
 
 **6. Debug:**
 
@@ -422,6 +427,7 @@ And run it by
 
 Looks like it works.
 
+ 
+=======
 ![](media/28a37a2c4d8794faa0b22686c21cbece.png)
-
-\>\>\>\>\>\>\> 600e13278473db6cc40a022e79c37c0e0baa2b56
+>>>>>>> 600e13278473db6cc40a022e79c37c0e0baa2b56
