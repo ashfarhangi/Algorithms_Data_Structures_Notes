@@ -18,3 +18,15 @@ a
 b
 c
 d"""
+
+my_dict = {'a':[0,2,3,4],'b':[2,3,4], 'c':[0,1,4,3]}
+def printDict(M):
+	i=0
+	output = []
+	for key in M:
+		for i in range(len(M.output))
+		output.append(M[key][i])
+		i += 1
+	print(output)
+
+printDict(my_dict)
