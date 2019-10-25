@@ -230,21 +230,68 @@ Heaps:
 Dynamic programming:
 ====================
 
+(Programming == tables)
+
+Factorial problem in python:
+
+![](media/c75f1ae6443175cde6bff55aaa014eda.png)
+
+DP = **Recursion** + **Memo**-ization
+
+Knapsack problem: Max value for weight limit
+
 ![](media/8772bf182b4a29b45fa854704118a58d.png)
 
-Knapsack. Imagine the skyrim world where you can carry a certain weight in your
-bag.
+Knapsack. Imagine the skyrim world where you can carry a certain weight (50kg)
+in your bag, how can you gather the most valuable items (3w,500v) with you?
 
 How you optimize which items with their weights to carry with you?
 
-1.  Brute force: check all the solutions and pick the best one: O(2\^n) possible
-    combinations
+1.  Brute force: Check all the solutions and pick the best one: O (2\^n)
+    possible combinations. “exponential time”
+
+Can we have a polynomial time algorithm? O(n\^2)
+
+1.  Smarter approach: Initiate with smallest item (2, 6) then (5, 9). Note that
+    (4, 6) will not be placed since for index 4 value 6 is larger than 5.
+
+>   Next look at index 6. By combining smallest value (2, 6) + (4, 5) we get
+>   higher value (11).
+
+![](media/fb4c847451ca46a38339e5be359320a9.png)
+
+>   Figure: For each weight the maximum value we can hold.  
+>   Runtime is O(nW).
+
+![](media/979a59ecbdab5b700013dbe7875b4603.png)
+
+1.  Dynamic programming: {can you break into sub problems}
+
+Sub-problem: Max value for some smaller weight
+
+We start by using Base case ( so trivial to compute)
+
+**Base case:** Smallest computation (compute values for one object)
+
+**+**
+
+**Lookup table** to store the trivial cases.
+
+![](media/5a7c7e913b6193df10c1bd43504915d2.png)
+
+![](media/fea061ac8378d67ca943d89b8a692000.png)
+
+Longest common subsequent
+
+![](media/dab72f2bab27818a10403e79984d290a.png)
+
+![](media/1f11fb9b2ed3eb432764db5635531f54.png)
 
 Technical Interview
 ===================
 
-======= Greedy Algorithm (Best option at each step):  
-================================================
+======= Greedy Algorithm (Best option at each step):
+====================================================
 
 ![](media/44d46f063fca4872104e6edb1a26e63d.png)
 
