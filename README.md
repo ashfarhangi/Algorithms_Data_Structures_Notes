@@ -326,6 +326,18 @@ dissolved if one of the connections drops.
 
 ![](media/4c958b1e2b2f2c7a5c54dc66945872db.png)
 
+![](media/426dc47adbe8aa35d9ca78e2e77905be.png)
+
+Go through array reccursavley.
+
+![](media/9475b959311dc362995bdb778c55234b.png)
+
+Let’s define 3 variables
+
+![](media/9beca1381c793944285f552ff3a4842c.png)
+
+Final answer we be the best solution out of these both (A[i] B[i] )
+
 Technical Interview (CIOT BRCD) (cute bird)
 ===========================================
 
