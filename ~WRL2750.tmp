@@ -287,30 +287,6 @@ Longest common subsequent
 
 ![](media/1f11fb9b2ed3eb432764db5635531f54.png)
 
-Complexity Theory
-=================
-
-Class P: n, n\^2,… (Any problem that can be solved in poly time)
-
-Class NP (Non deterministic): A set of decision problems where yes can be
-verified in polytime.
-
-Descion problems (answers are yes or no) can I go from a to be less than
-100miles? Lets take traveling sales man. Optimization can I do this less than
-100 miles?
-
-Is the answer more thaan 100? Yes is it lower than 200? 150? This way you will
-solve the problems
-
-Proof/verified/certificate Orlando – Atlanta – L.A
-
-Is this number a prime 234715307129734085? Hard to check
-
-Suppose this number not a prime? 1324 if the answer is no it can be verified
-quickly
-
-Class Co-NP: \_No\_ polytime
-
 Technical Interview
 ===================
 
