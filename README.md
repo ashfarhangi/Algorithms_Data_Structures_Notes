@@ -1,10 +1,10 @@
 Data Structures and Algorithms
 ==============================
 
-This is the summary of multiple materials on **Data Structures and Algorithms**.
+The summary of **Data Structures and Algorithms** plus every **Interview step.**
 
-I’ve included the code for each concept in Python. I would suggest to implement
-this short code for your projects or coding interviews..
+I’ve included the code for each concept in Python in the code folder. I would
+suggest to implement this short code for your projects or coding interviews..
 
 I highly recommend the following materials by the order of importance:
 
@@ -130,14 +130,14 @@ Int , float 4 bytes
 
 char 1 byte
 
-TLDR: Binary search (Middle, Middle, O (log(n)).:
-=================================================
+Binary search (Middle …. Middle, O (log(n)).:
+=============================================
 
 ![](media/393309480a114e09e85165f26cfdf15d.png)
 
 **Algorithm:** Tricks to solve a problem
 
-**Q:** How to find number 25 in this stack?
+**Q:** How to find number 25 in this a sorted array?
 
 **A:**
 
@@ -155,8 +155,8 @@ Sorting:
 
 Simplest and most inefficient one O(n\^2)
 
-Merge Sort(divide, merge):
-==========================
+Merge Sort (divide, merge):
+===========================
 
 Using divide and conquer, first, we divide 2 by 2
 
@@ -172,8 +172,8 @@ O (n Log (n))
 
 Why we are seeing log (n) in our efficiency? Hint: same as binary search problem
 
-QuickSort(divide, merge):
-=========================
+Quick Sort (divide, merge):
+===========================
 
 Pick one and move it around
 
@@ -340,8 +340,6 @@ Final answer we be the best solution out of these both (A[i] B[i] )
 
 Technical Interview (CIOT BRCD) (cute bird)
 ===========================================
-
->   600e13278473db6cc40a022e79c37c0e0baa2b56
 
 What are the most important 7 steps?
 
