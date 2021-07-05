@@ -39,7 +39,7 @@ Think in simple term:
 
 2.  What are the inputs
 
-3.  What are the outputsa
+3.  What are the outputs
 
 4.  Solve the problem
 
@@ -77,7 +77,12 @@ Write simple small codes that work
 No need to figure out all the details. Consider that you will procrastinate
 later
 
+Comparison
+==========
 
+Finding the smallest of n numbers:(n-1)  
+Finding the biggest of n numbers:(n-1)  
+Finding the smallest and the biggest of n numbers:(2n-3)
 
 Big O Notion:
 =============
@@ -87,13 +92,11 @@ may also increase.
 
 For example in **Nested Loops**:
 
-` For i in range(len(n)):
+For I in range:
 
-        For j in range(len(n)):
+For j in range:
 
-Print(“hello World”) `
- 
- n^2
+>   Print(“hello World”)
 
 Will increases the lines dramatically
 
@@ -113,9 +116,11 @@ O(2n+2) \> n=10 -\> 22
  In n\^2 + 5*n*2+5, the 55 has very little impact on the total
 efficiency—especially as the input size gets larger and larger. Asking the
 computer to do 10,005 operations vs. 10,000 operations makes little difference.
-Thus, it is the n\^2*n*2 that we really care about the most, and the + makes little difference
+Thus, it is the n\^2*n*2 that we really care about the most, and the + 5+5 makes
+little difference
 
-Interviewer wants us to think about efficiency.
+Efficiency is actually about O(n) Interviewer wants us to think about
+efficiency.
 
 Run time analysis
 
@@ -125,16 +130,8 @@ Int , float 4 bytes
 
 char 1 byte
 
-
-# Comparison
-#algorithms
-
-Finding the smallest of n numbers:(n-1)  
-Finding the biggest of n numbers:(n-1)  
-Finding the smallest and the biggest of n numbers:(2n-3)
-
-# Search
-## Binary search (Middle …. Middle, O (log(n)).:
+Binary search (Middle …. Middle, O (log(n)).:
+=============================================
 
 ![](media/393309480a114e09e85165f26cfdf15d.png)
 
@@ -508,3 +505,4 @@ Looks like it works.
 
 ![](media/28a37a2c4d8794faa0b22686c21cbece.png)
 
+\>\>\>\>\>\>\> 600e13278473db6cc40a022e79c37c0e0baa2b56
