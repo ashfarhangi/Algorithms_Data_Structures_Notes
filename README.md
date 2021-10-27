@@ -20,10 +20,9 @@ Practice the following:
 - [Online programming](https://leetcode.com/)
 
 My personal experience stems from taking PhD courses at UCF: 
-[Udacity nano degree: Data Structures and
-    Algorithms](https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256)
-[COT 5405: Design & Analysis Algorithms](http://www.cs.ucf.edu/~sharma/COT5405)
-[COT 6410: Computational Complexity](http://www.cs.ucf.edu/courses/cot6410/Spring2021/COT6410Spring2021.html)
+- [Udacity nano degree: Data Structures and Algorithms](https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256)
+- [COT 5405: Design & Analysis Algorithms](http://www.cs.ucf.edu/~sharma/COT5405)
+- [COT 6410: Computational Complexity](http://www.cs.ucf.edu/courses/cot6410/Spring2021/COT6410Spring2021.html)
 
 Solving any algorithm problem:
 ==============================
