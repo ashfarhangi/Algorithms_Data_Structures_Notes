@@ -1,7 +1,7 @@
 Data Structures and Algorithms
 ==============================
 
-The summary of **Data Structures and Algorithms** plus **Interview steps.**
+The summary of **Data Structures and Algorithms** plus **Interview steps** on Udacity nano degree "Data Structures and Algorithms".
 
 I’ve included the code for each concept in Python in the code folder. I would
 suggest to implement short codes for your projects or coding interviews.
