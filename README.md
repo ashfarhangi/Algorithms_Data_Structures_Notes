@@ -19,7 +19,7 @@ Practice the following:
 - [Problem sets from textbook](https://www.amazon.com/Data-Structure-Algorithmic-Thinking-Python/dp/8192107590)
 - [Online programming](https://leetcode.com/)
 
-My personal experience stems from taking PhD courses at UCF: 
+My personal experience stems from PhD courses at UCF and Udacity nanodegree: 
 - [Udacity nano degree: Data Structures and Algorithms](https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256)
 - [COT 5405: Design & Analysis Algorithms](http://www.cs.ucf.edu/~sharma/COT5405)
 - [COT 6410: Computational Complexity](http://www.cs.ucf.edu/courses/cot6410/Spring2021/COT6410Spring2021.html)
