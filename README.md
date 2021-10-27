@@ -6,16 +6,14 @@ The summary of **Data Structures and Algorithms** plus **Interview steps** from 
 I’ve included the code for each concept in Python in the code folder. I would
 suggest to implement short codes for your projects or coding interviews.
 
-I highly recommend the following materials by the order of importance:
+These notes are currently used to refresh your knowledge and showcase the important part of each domain. 
+I highly recommend the following materials by the ordered by importance:
 
-1.  [Udacity nano degree: Data Structures and
-    Algorithms](https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256)
-
-2.  Youtube playlist
-
-3.  Data Structure in C book
-
-4.  CLRS book [If you are an academic].
+- [Udacity nano degree: Data Structures and
+    Algorithms](https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256)3
+- [Data Structures And Algorithmic Thinking With Python](https://www.amazon.com/Data-Structure-Algorithmic-Thinking-Python/dp/8192107590)
+- [Youtube playlist](https://www.youtube.com/watch?v=0IAPZzGSbME&list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O) [If you are a begineer]
+- [CLRS book](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844) [If you are an academic].
 
 TLDR Objectives: Understanding of various types of techniques for algorithms
 design and (run time) analysis in detail. Also, a gentle introduction to several
