@@ -15,16 +15,15 @@ I highly recommend the following materials by the ordered by importance:
 - [Youtube playlist](https://www.youtube.com/watch?v=0IAPZzGSbME&list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O) [If you are a begineer]
 - [CLRS book](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844) [If you are an academic].
 
-TLDR Objectives: Understanding of various types of techniques for algorithms
-design and (run time) analysis in detail. Also, a gentle introduction to several
-advanced data structures.
+Practice the following:
+- [Problem sets from textbook](https://www.amazon.com/Data-Structure-Algorithmic-Thinking-Python/dp/8192107590)
+- [Online programming](https://leetcode.com/)
 
-TLDR Overview: Review of mathematical background, sorting and searching,
-algorithm design techniques such as divide and conquer, greedy approach, dynamic
-programming, worst case and average case analysis techniques, data structures
-such as binary search trees and various heaps, graph algorithms, string
-algorithms and geometric data structures, advanced topics (P, NP, NP-Complete,
-etc) if time permits.
+My personal experience stems from taking PhD courses at UCF: 
+[Udacity nano degree: Data Structures and
+    Algorithms](https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256)
+[COT 5405: Design & Analysis Algorithms](http://www.cs.ucf.edu/~sharma/COT5405)
+[COT 6410: Computational Complexity](http://www.cs.ucf.edu/courses/cot6410/Spring2021/COT6410Spring2021.html)
 
 Solving any algorithm problem:
 ==============================
