@@ -10,7 +10,7 @@ These notes are currently used to refresh your knowledge and showcase the import
 I highly recommend the following materials by the ordered by importance:
 
 - [Udacity nano degree: Data Structures and
-    Algorithms](https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256)3
+    Algorithms](https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256)
 - [Data Structures And Algorithmic Thinking With Python](https://www.amazon.com/Data-Structure-Algorithmic-Thinking-Python/dp/8192107590)
 - [Youtube playlist](https://www.youtube.com/watch?v=0IAPZzGSbME&list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O) [If you are a begineer]
 - [CLRS book](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844) [If you are an academic].
