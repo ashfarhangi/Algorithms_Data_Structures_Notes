@@ -1,10 +1,10 @@
 Data Structures and Algorithms
 ==============================
 
-The summary of **Data Structures and Algorithms** plus every **Interview step.**
+The summary of **Data Structures and Algorithms** plus **Interview steps.**
 
 I’ve included the code for each concept in Python in the code folder. I would
-suggest to implement this short code for your projects or coding interviews..
+suggest to implement short codes for your projects or coding interviews.
 
 I highly recommend the following materials by the order of importance:
 
