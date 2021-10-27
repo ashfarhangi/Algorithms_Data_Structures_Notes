@@ -7,7 +7,7 @@ I’ve included the code for each concept in Python in the code folder. I would
 suggest to implement short codes for your projects or coding interviews.
 
 These notes are currently used to refresh your knowledge and showcase the important part of each domain. 
-I highly recommend the following materials by the ordered by importance:
+I highly recommend the following materials (ordered by importance):
 
 - [Udacity nano degree: Data Structures and
     Algorithms](https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256)
