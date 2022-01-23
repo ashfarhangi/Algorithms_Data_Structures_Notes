@@ -24,56 +24,47 @@ My personal experience stems from PhD courses at UCF and Udacity nanodegree:
 - [COT 5405: Design & Analysis Algorithms](http://www.cs.ucf.edu/~sharma/COT5405)
 - [COT 6410: Computational Complexity](http://www.cs.ucf.edu/courses/cot6410/Spring2021/COT6410Spring2021.html)
 
-Solving any algorithm problem:
+How to solving algorithm problems:
 ==============================
 
 ![](media/807b5c8aee182baaa1713c01e98994f9.png)
 
 Think in simple term:
 
-1.  Don’t panic
+1.  What are the inputs
 
-2.  What are the inputs
+2.  What are the outputs
 
-3.  What are the outputsa
-
-4.  Solve the problem
+3.  Step-by-step ways that can connect the two
 
 **Next:**
 
-Do some examples on paper/mind, find **relationship** between input and output,
-finally, test some cases.
+Do some examples on paper or on your mind. The trick is to find the correct **relationships** between input and output. 
+Finally, you can test some cases and fine-tune your approach for special cases.
 
-Try solve the problem **On paper first**.
+Writing the algorithm can be done by writing the _pseudocode_.
 
-Write algorithm. Pseudocode.
-
-Example 1 [Code included]: Write an algorithm /code that counts the difference
+Question 1: Write an algorithm/program that returns the difference
 of two dates.
 
-Ask yourself:
+**Step 1: Ask yourself the following questions**
 
-Dates, DF, are all the inputs are valid? 1st data 2nd Second date must not be
-older than 1: invalid input
-
-How input are encoded? (yyyy,mm,dd)
-
-Output return a number because we can do things with return value rather
-printing it
+Q: For inputs (dates), what are the valid inputs? 
+Q: How input are encoded? (yyyy,mm,dd)
+Q: Possible output returns? (an integer)
 
 ![](media/aafcce2fa1d4355bed1f9c7f5850c437.png)
 
-First code: writing a block that makes the solution to work. Solve with a single
-simple case.
+**Step 2: Write simple code that works partially for the problem** 
+- Chances are, you need to consider all possible conditions. Often, this results in getting stuck in finding the perfect solutions. Hence, its advisable that you find the simplest solution that works. E,g, solve with a single simple case.
 
+Tips:
 Break into simple parts so that we can see our progress.
-
 Write simple small codes that work
-
-No need to figure out all the details. Consider that you will procrastinate
-later
+No need to figure out all the details. 
 
 
+# Concepts: 
 
 Big O Notion:
 =============
