@@ -65,9 +65,12 @@ No need to figure out all the details.
 
 
 # Concepts: 
+Now we look into the main topics that are being covered in most interviews/coding challenges. We also look into the patterns that appear in solutions which can be used in new problems. The goal is to understand the fundamentals and try to use them to solve problems. 
 
-Big O Notion:
-=============
+
+
+## Big O Notion:
+
 
 As the input to an algorithm increases, the time required to run the algorithm
 may also increase.
@@ -113,15 +116,14 @@ Int , float 4 bytes
 char 1 byte
 
 
-# Comparison
-#algorithms
+## Comparison
 
 Finding the smallest of n numbers:(n-1)  
 Finding the biggest of n numbers:(n-1)  
 Finding the smallest and the biggest of n numbers:(2n-3)
 
-# Search
-## Binary search (Middle …. Middle, O (log(n)).:
+## Search
+### Binary search (Middle …. Middle, O (log(n)).:
 
 ![](media/393309480a114e09e85165f26cfdf15d.png)
 
@@ -138,15 +140,15 @@ postion of binary)
 
 Middle, Middle, Middle.
 
-Sorting:
-========
+## Sorting:
+
 
 **Bubble sort:**
 
 Simplest and most inefficient one O(n\^2)
 
-Merge Sort (divide, merge):
-===========================
+## Merge Sort (divide, merge):
+
 
 Using divide and conquer, first, we divide 2 by 2
 
@@ -162,8 +164,7 @@ O (n Log (n))
 
 Why we are seeing log (n) in our efficiency? Hint: same as binary search problem
 
-Quick Sort (divide, merge):
-===========================
+## Quick Sort (divide, merge):
 
 Pick one and move it around
 
@@ -214,11 +215,9 @@ Everythin less than 8 are already below 8 so cemented
 
 **O(n2) if it’s already sorted. Why? Wasting time**
 
-Heaps:
-======
 
-Dynamic programming:
-====================
+## Dynamic programming:
+
 
 (Programming == tables)
 
@@ -277,8 +276,7 @@ Longest common subsequent
 
 ![](media/1f11fb9b2ed3eb432764db5635531f54.png)
 
-Complexity Theory
-=================
+## Complexity Theory
 
 Class P: n, n\^2,… (Any problem that can be solved in poly time)
 
@@ -301,11 +299,8 @@ quickly
 
 Class Co-NP: \_No\_ polytime
 
-Technical Interview
-===================
 
-======= Greedy Algorithm (Best option at each step):
-====================================================
+## Greedy Algorithm (Best option at each step):
 
 ![](media/44d46f063fca4872104e6edb1a26e63d.png)
 
@@ -324,8 +319,8 @@ Example:
 Min operations example {see code}: By using while, in dividing numbers in half
 // == / and using
 
-Graph algorithm (data structure that shows relation):
-=====================================================
+## Graph algorithm (data structure that shows relation):
+
 
 Graph(Tree is a subgroup of graph,Network) Nodes(Vertex) Edges
 
@@ -352,12 +347,12 @@ Let’s define 3 variables
 
 Final answer we be the best solution out of these both (A[i] B[i] )
 
-Technical Interview (CIOT BRCD) (cute bird)
-===========================================
+# Technical Interview (CIOT BRCD) (cute bird)
+Now lets focus on the technical interviews. We tend to simplify the concepts by using memory palace techniques. I adivse everyone to develop a memory palace for algorithms/techniques that requrie knowledge about more than 6-7 steps.
 
 What are the most important 7 steps?
 
-{Memory Palace} Imagine a cute bird sees a giant worm that is shaped like a Q
+Imagine a cute bird sees a giant worm that is shaped like a Q
 {Question}. First the bird pour water on the worm (clarify). Then it find the
 tail and head (I, O). Then it will taste the worm (Test). It will use its brain
 to decide how to eat it (Brainstorm). Then a big white eagle comes and its needs
