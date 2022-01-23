@@ -1,5 +1,5 @@
-Data Structures and Algorithms
-==============================
+# Data Structures and Algorithms
+
 
 The summary of **Data Structures and Algorithms** plus **Interview steps** from Udacity's nano degree "Data Structures and Algorithms".
 
@@ -24,8 +24,7 @@ My personal experience stems from PhD courses at UCF and Udacity nanodegree:
 - [COT 5405: Design & Analysis Algorithms](http://www.cs.ucf.edu/~sharma/COT5405)
 - [COT 6410: Computational Complexity](http://www.cs.ucf.edu/courses/cot6410/Spring2021/COT6410Spring2021.html)
 
-How to solving algorithm problems:
-==============================
+# How to solving algorithm problems:
 
 ![](media/807b5c8aee182baaa1713c01e98994f9.png)
 
