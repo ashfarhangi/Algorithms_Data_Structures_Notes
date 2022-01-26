@@ -10,7 +10,8 @@
           "type": "markdown",
           "state": {
             "file": "README.md",
-            "mode": "source"
+            "mode": "source",
+            "source": false
           }
         }
       }
@@ -47,12 +48,23 @@
                 "sortOrder": "alphabetical"
               }
             }
+          },
+          {
+            "id": "e64a18baad312ba6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "README.md"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 293
   },
   "right": {
     "id": "158295ed98e97e96",
@@ -75,7 +87,7 @@
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           }
@@ -83,12 +95,12 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "active": "0e600774d70c3e3b",
   "lastOpenFiles": [
     "README.md",
+    "media/1f11fb9b2ed3eb432764db5635531f54.png",
     "Archive/README - Copy.md",
     "~$README.md",
     "Archive/README - Copy (2).md"

@@ -1,3 +1,29 @@
 {
-  "promptDelete": false
+  "obsidianCss": true,
+  "isSidebarCollapsed": false,
+  "isRightSidedockCollapsed": true,
+  "lastOpenSidebarTab": "File explorer",
+  "lastOpenRightSidedockTab": "Backlinks",
+  "promptDelete": false,
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "/",
+  "foldHeading": false,
+  "showLineNumber": false,
+  "vimMode": false,
+  "newFileLocation": "current",
+  "enabledPlugins": [],
+  "spellcheck": false,
+  "spellcheckDictionary": [
+    "Porche"
+  ],
+  "readableLineLength": false,
+  "pdfExportSettings": {
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "legacyEditor": false,
+  "livePreview": true,
+  "defaultViewMode": "source"
 }

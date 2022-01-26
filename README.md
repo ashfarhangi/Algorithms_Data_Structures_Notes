@@ -1,19 +1,18 @@
-# Data Structures and Algorithms
+# Data Structures and Algorithms (Machine Learning)
 
-
-The summary of **Data Structures and Algorithms** plus **Interview steps** from Udacity's nano degree "Data Structures and Algorithms".
-
-I’ve included the code for each concept in Python in the code folder. I would
-suggest to implement short codes for your projects or coding interviews.
-
-These notes are currently used to refresh your knowledge and showcase the important part of each domain. 
-I highly recommend the following materials (ordered by importance):
-
+These notes are currently used to refresh your knowledge and showcase the important part of each domain. I highly recommend the following materials (ordered by importance). This repository provides the notes taken from all these sources. 
 - [Udacity nano degree: Data Structures and
     Algorithms](https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256)
+- [Data Structures, Algorithms, and Machine Learning Optimization](https://www.oreilly.com/library/view/data-structures-algorithms/9780137644889/)
 - [Data Structures And Algorithmic Thinking With Python](https://www.amazon.com/Data-Structure-Algorithmic-Thinking-Python/dp/8192107590)
 - [Youtube playlist](https://www.youtube.com/watch?v=0IAPZzGSbME&list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O) [If you are a begineer]
 - [CLRS book](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844) [If you are an academic].
+
+Machine Learning Inteviews:
+- [Cracking ML inteviews](https://github.com/shafaypro/CrackingMachineLearningInterview)
+- Monday, January 24, 2022
+
+- Machine Learning Interviews [](https://mlengineer.io/common-leetcode-questions-by-categories-532b301130b) [](https://github.com/khangich/machine-learning-interview)
 
 Practice the following:
 - [Problem sets from textbook](https://www.amazon.com/Data-Structure-Algorithmic-Thinking-Python/dp/8192107590)
@@ -23,6 +22,51 @@ My personal experience stems from PhD courses at UCF and Udacity nanodegree:
 - [Udacity nano degree: Data Structures and Algorithms](https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256)
 - [COT 5405: Design & Analysis Algorithms](http://www.cs.ucf.edu/~sharma/COT5405)
 - [COT 6410: Computational Complexity](http://www.cs.ucf.edu/courses/cot6410/Spring2021/COT6410Spring2021.html)
+
+## 1. Orientation to the Machine Learning Foundations Series
+- [Data Structures, Algorithms, and Machine Learning Optimization](https://www.oreilly.com/library/view/data-structures-algorithms/9780137644889/)
+- The foundations should be strong. By large, CS concepts are standalone (no need for linear algebra, ...)
+![[Pasted image 20220123111220.png]]
+- Reasons for using DSA in ML:
+	- Finding the correct DS for various situations  
+	- Be thoughtful for time/space complexity in:
+		- Model Training
+		- Model deployment in larger scale
+		- **Software 2.0:** Assuming the fixed batch size, Deep Learning algos typically have **constant time (Compute)/space(RAM)** complexity 
+	- We also learn how to implement ML models as graphs 
+		- Low-level PyTorch 
+
+
+## 2. Big O Notion
+![[Pasted image 20220124174718.png]]
+
+
+![[Pasted image 20220124175807.png]]
+- Shipping a dataset to datacenter has constant time (e.g. 24 hours). But uploading it to server is not.
+- For problems its advisable to find the best, worst and expected (average) Big O
+- 
+![[Pasted image 20220124180150.png]]
+
+We keep the *m*. Given that in might be large.
+![[Pasted image 20220124180632.png]]
+# 3. Data structures
+List
+![[Pasted image 20220125184741.png]]
+![[Pasted image 20220125184854.png]]
+
+Linked lists are not indexed. Only nodes are linked toghether.
+![[Pasted image 20220125185234.png]]
+
+![[Pasted image 20220125185335.png]]
+- Stacks are implemented as lists in python. s.append, s.pop
+- Queue: beginning and end are available. You can also take a peek of the first one.
+- Deques (دک) (Double ended- queue):
+# Data Structures and Algorithms (CS)
+The summary of **Data Structures and Algorithms** plus **Interview steps** from Udacity's nano degree "Data Structures and Algorithms". 
+
+I’ve included the code for each concept in Python in the code folder. I would
+suggest to implement short codes for your projects or coding interviews.
+
 
 # How to solving algorithm problems:
 
@@ -122,7 +166,7 @@ Finding the biggest of n numbers:(n-1)
 Finding the smallest and the biggest of n numbers:(2n-3)
 
 ## Search
-### Binary search (Middle …. Middle, O (log(n)).:
+**Binary search (Middle …. Middle, O (log(n)).:**
 
 ![](media/393309480a114e09e85165f26cfdf15d.png)
 

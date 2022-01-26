@@ -1,4 +1,7 @@
 {
-  "baseFontSize": 16,
-  "theme": "moonstone"
+  "theme": "moonstone",
+  "baseFontSize": 10,
+  "enabledCssSnippets": [
+    "obsidian"
+  ]
 }
