@@ -26,7 +26,7 @@ My personal experience stems from PhD courses at UCF and Udacity nanodegree:
 ## 1. Orientation to the Machine Learning Foundations Series
 - [Data Structures, Algorithms, and Machine Learning Optimization](https://www.oreilly.com/library/view/data-structures-algorithms/9780137644889/)
 - The foundations should be strong. By large, CS concepts are standalone (no need for linear algebra, ...)
-![[Pasted image 20220123111220.png]]
+![](Pasted image 20220123111220.png)
 - Reasons for using DSA in ML:
 	- Finding the correct DS for various situations  
 	- Be thoughtful for time/space complexity in:
@@ -38,26 +38,26 @@ My personal experience stems from PhD courses at UCF and Udacity nanodegree:
 
 
 ## 2. Big O Notion
-![[Pasted image 20220124174718.png]]
+![](Pasted image 20220124174718.png)
 
 
-![[Pasted image 20220124175807.png]]
+![](Pasted image 20220124175807.png)
 - Shipping a dataset to datacenter has constant time (e.g. 24 hours). But uploading it to server is not.
 - For problems its advisable to find the best, worst and expected (average) Big O
 - 
-![[Pasted image 20220124180150.png]]
+![](Pasted image 20220124180150.png)
 
 We keep the *m*. Given that in might be large.
-![[Pasted image 20220124180632.png]]
+![](Pasted image 20220124180632.png)
 # 3. Data structures
 List
-![[Pasted image 20220125184741.png]]
-![[Pasted image 20220125184854.png]]
+![](Pasted image 20220125184741.png)
+![](Pasted image 20220125184854.png)
 
 Linked lists are not indexed. Only nodes are linked toghether.
-![[Pasted image 20220125185234.png]]
+![](Pasted image 20220125185234.png)
 
-![[Pasted image 20220125185335.png]]
+![](Pasted image 20220125185335.png)
 - Stacks are implemented as lists in python. s.append, s.pop
 - Queue: beginning and end are available. You can also take a peek of the first one.
 - Deques (دک) (Double ended- queue):
@@ -425,7 +425,7 @@ matrix [island is a group of 1 or just 1 by itself.]
 
 A: ok so, we are given a 2D matrix which will look something like this.:
 
-[[1,0,1],[1,1,1]]
+[[1,0,1],[1,1,1)
 
 So, our goal is find the number of islands. Is the outcome the number? Or X? So
 if the are connected (I[1,0,0],[0,1,0],[0,0,1]) diagonally? Does that consider
@@ -451,7 +451,7 @@ Q: number of island in a matrix 
 
 **1.Clarify the question **
 
-A[[1,0,0]],[1,1,0]]{Just to make sure I’m solving the right problem….}
+A[[1,0,0),[1,1,0){Just to make sure I’m solving the right problem….}
 
 **2.Generating input/output**
 
@@ -515,7 +515,7 @@ Variable a,b,c If() While() For()
 
 Test cases: input None -\> return 0 so its working
 
-So [[1,0,1],[1,1,0]]. Go ahead, that looks good. Now I’m adding both of these.
+So [[1,0,1],[1,1,0). Go ahead, that looks good. Now I’m adding both of these.
 And I probably {} O looks like I forget to {add a return} Looks like it works.
 
 Python programming:
