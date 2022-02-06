@@ -26,7 +26,7 @@ My personal experience stems from PhD courses at UCF and Udacity nanodegree:
 ## 1. Orientation to the Machine Learning Foundations Series
 - [Data Structures, Algorithms, and Machine Learning Optimization](https://www.oreilly.com/library/view/data-structures-algorithms/9780137644889/)
 - The foundations should be strong. By large, CS concepts are standalone (no need for linear algebra, ...)
-![](Pasted image 20220123111220.png)
+![](media/outline.png)
 - Reasons for using DSA in ML:
 	- Finding the correct DS for various situations  
 	- Be thoughtful for time/space complexity in:
@@ -38,26 +38,26 @@ My personal experience stems from PhD courses at UCF and Udacity nanodegree:
 
 
 ## 2. Big O Notion
-![](Pasted image 20220124174718.png)
+![](media/runfi.png)
 
 
-![](Pasted image 20220124175807.png)
+![](media/runtime.png)
 - Shipping a dataset to datacenter has constant time (e.g. 24 hours). But uploading it to server is not.
 - For problems its advisable to find the best, worst and expected (average) Big O
 - 
-![](Pasted image 20220124180150.png)
+![](media/arrays.png)
 
 We keep the *m*. Given that in might be large.
-![](Pasted image 20220124180632.png)
+![](media/sol.png)
 # 3. Data structures
 List
-![](Pasted image 20220125184741.png)
-![](Pasted image 20220125184854.png)
+![](types.png)
+![](media/best.png)
 
 Linked lists are not indexed. Only nodes are linked toghether.
-![](Pasted image 20220125185234.png)
+![](media/linked.png)
 
-![](Pasted image 20220125185335.png)
+![](media/double.png)
 - Stacks are implemented as lists in python. s.append, s.pop
 - Queue: beginning and end are available. You can also take a peek of the first one.
 - Deques (دک) (Double ended- queue):
