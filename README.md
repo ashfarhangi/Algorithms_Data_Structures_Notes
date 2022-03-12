@@ -9,7 +9,8 @@ These notes are currently used to refresh your knowledge and showcase the import
 - [CLRS book](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844) [If you are an academic].
 
 List of problems:
-[Interview Problems + Solutions](https://github.com/ashfarhangi/Data-Structures-and-Algorithms/blob/master/Leetcode-Problems.ipynb)
+- [Interview Problems + Solutions](https://github.com/ashfarhangi/Data-Structures-and-Algorithms/blob/master/Leetcode-Problems.ipynb)
+
 Machine Learning Inteviews:
 - [Cracking ML inteviews](https://github.com/shafaypro/CrackingMachineLearningInterview)
 - Monday, January 24, 2022
