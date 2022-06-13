@@ -393,17 +393,8 @@ Let’s define 3 variables
 
 Final answer we be the best solution out of these both (A[i] B[i] )
 
-# Technical Interview (CIOT BRCD) (cute bird)
+# Technical Interview
 Now lets focus on the technical interviews. We tend to simplify the concepts by using memory palace techniques. I adivse everyone to develop a memory palace for algorithms/techniques that requrie knowledge about more than 6-7 steps.
-
-What are the most important 7 steps?
-
-Imagine a cute bird sees a giant worm that is shaped like a Q
-{Question}. First the bird pour water on the worm (clarify). Then it find the
-tail and head (I, O). Then it will taste the worm (Test). It will use its brain
-to decide how to eat it (Brainstorm). Then a big white eagle comes and its needs
-to calculate the runtime of eating the worm {Runtime analysis}. Then it will
-start eating it with If, For, {Code} and Debugs it (No more bug).
 
 ![](media/4fe578f16ea7ad1e9fd04d71fdea444a.png)
 
