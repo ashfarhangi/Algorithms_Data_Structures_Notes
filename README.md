@@ -1,4 +1,4 @@
-# Data Structures and Algorithms (Machine Learning)
+# Data Structures and Algorithms
 
 These notes are currently used to refresh your knowledge and showcase the important part of each domain. I highly recommend the following materials (ordered by importance). This repository provides the notes taken from all these sources. 
 - [Udacity nano degree: Data Structures and
