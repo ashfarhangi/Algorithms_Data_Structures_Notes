@@ -7,24 +7,24 @@ These notes are currently used to refresh your knowledge and showcase the import
 - [Data Structures And Algorithmic Thinking With Python](https://www.amazon.com/Data-Structure-Algorithmic-Thinking-Python/dp/8192107590)
 - [Youtube playlist](https://www.youtube.com/watch?v=0IAPZzGSbME&list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O) [If you are a begineer]
 - [CLRS book](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844) [If you are an academic].
+- 
+Also, PhD courses at University of Central Florida and Udacity nanodegree: 
+- [Udacity Nano Degree: Data Structures and Algorithms](https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256)
+- [COT 5405: Design & Analysis Algorithms](http://www.cs.ucf.edu/~sharma/COT5405)
+- [COT 6410: Computational Complexity](http://www.cs.ucf.edu/courses/cot6410/Spring2021/COT6410Spring2021.html)
 
-List of problems:
+Overview of problems:
+- [Interview Problems for ML engineers](https://mlengineer.io/common-leetcode-questions-by-categories-532b301130b)
 - [Interview Problems + Solutions](https://github.com/ashfarhangi/Data-Structures-and-Algorithms/blob/master/Leetcode-Problems.ipynb)
 
 Machine Learning Inteviews:
 - [Cracking ML inteviews](https://github.com/shafaypro/CrackingMachineLearningInterview)
-- Monday, January 24, 2022
+- [Machine Learning Interviews](https://github.com/khangich/machine-learning-interview)
 
-- Machine Learning Interviews [](https://mlengineer.io/common-leetcode-questions-by-categories-532b301130b) [](https://github.com/khangich/machine-learning-interview)
-
-Practice the following:
+Practice problems:
 - [Problem sets from textbook](https://www.amazon.com/Data-Structure-Algorithmic-Thinking-Python/dp/8192107590)
 - [Online programming](https://leetcode.com/)
 
-My personal experience stems from PhD courses at UCF and Udacity nanodegree: 
-- [Udacity nano degree: Data Structures and Algorithms](https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256)
-- [COT 5405: Design & Analysis Algorithms](http://www.cs.ucf.edu/~sharma/COT5405)
-- [COT 6410: Computational Complexity](http://www.cs.ucf.edu/courses/cot6410/Spring2021/COT6410Spring2021.html)
 
 ## 1. Orientation to the Machine Learning Foundations Series
 - [Data Structures, Algorithms, and Machine Learning Optimization](https://www.oreilly.com/library/view/data-structures-algorithms/9780137644889/)
