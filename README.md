@@ -8,41 +8,19 @@ These notes can be used to find top patterns for each category. Moreover, it can
 -   [Bari's YouTube playlist](https://www.youtube.com/watch?v=0IAPZzGSbME&list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O) [If you are a beginner]
 
 
-For Academia:
--   [CLRS book](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844) 
-
--   [COT 5405: Design & Analysis Algorithms](http://www.cs.ucf.edu/~sharma/COT5405)
--   [COT 6410: Computational Complexity](http://www.cs.ucf.edu/courses/cot6410/Spring2021/COT6410Spring2021.html)
-
-Overview of problems:
-
--   [Interview Problems for ML engineers](https://mlengineer.io/common-leetcode-questions-by-categories-532b301130b)
--   [Interview Problems + Solutions](https://github.com/ashfarhangi/Data-Structures-and-Algorithms/blob/master/Leetcode-Problems.ipynb)
-
-Machine Learning Inteviews:
-
--   [Cracking ML inteviews](https://github.com/shafaypro/CrackingMachineLearningInterview)
--   [Machine Learning Interviews](https://github.com/khangich/machine-learning-interview)
-
-Practice problems:
-
--   [Problem sets from textbook](https://www.amazon.com/Data-Structure-Algorithmic-Thinking-Python/dp/8192107590)
--   [Online programming](https://leetcode.com/)
-
-## 1. Orientation to the Machine Learning Foundations Series
-
--   [Data Structures, Algorithms, and Machine Learning Optimization](https://www.oreilly.com/library/view/data-structures-algorithms/9780137644889/)
--   The foundations should be strong. By large, CS concepts are standalone (no need for linear algebra, ...) ![](media/outline.png)
+# 1. Foundation
+-   By large, CS concepts can be standalone. However, you might need to build upon other elements. For instance, in ML, there is a need for Linear Algebra, Calculus and Statistics.
+![](media/outline.png)
 -   Reasons for using DSA in ML:
     -   Finding the correct DS for various situations
         -   Be thoughtful for time/space complexity in:
             -   Model Training
-                -   Model deployment in larger scale
-                -   **Software 2.0:** Assuming the fixed batch size, Deep Learning algos typically have **constant time (Compute)/space(RAM)** complexity
-        -   We also learn how to implement ML models as graphs
-            -   Low-level PyTorch
+            -   Model deployment in larger scale
+                -   Software 2.0: Assuming the fixed batch size, Deep Learning algos typically have a constant time/space  complexity (GPU/RAM)
+        -   Implement ML models as graphs
 
-## 2. Big O Notion
+Source: [Data Structures, Algorithms, and Machine Learning Optimization](https://www.oreilly.com/library/view/data-structures-algorithms/9780137644889/)
+# 2. Big O Notion
 
 ![](media/runfi.png)
 
@@ -58,7 +36,13 @@ We keep the *m*. Given that in might be large. ![](media/sol.png)
 
 # 3. Data structures
 
-List ![](types.png) ![](media/best.png)
+
+- List based data structures: 
+![](types.png)
+- Common data structures:
+![](media/28a37a2c4d8794faa0b22686c21cbece.png)
+- Big O notion
+![](media/best.png)
 
 Linked lists are not indexed. Only nodes are linked toghether. ![](media/linked.png)
 
@@ -68,17 +52,15 @@ Linked lists are not indexed. Only nodes are linked toghether. ![](media/linked.
 -   Queue: beginning and end are available. You can also take a peek of the first one.
 -   Deques (دک) (Double ended- queue):
 
-# Data Structures and Algorithms (CS)
+# 4. Algorithms
 
 The summary of **Data Structures and Algorithms** plus **Interview steps** from Udacity's nano degree "Data Structures and Algorithms".
 
 I’ve included the code for each concept in Python in the code folder. I would suggest to implement short codes for your projects or coding interviews.
 
-# How to solving algorithm problems:
+## Solution to any problems
 
-![](media/807b5c8aee182baaa1713c01e98994f9.png)
-
-Think in simple term:
+Think in simple terms:
 
 1.  What are the inputs
 2.  What are the outputs
@@ -104,11 +86,12 @@ Q: For inputs (dates), what are the valid inputs? Q: How input are encoded? (yyy
 
 Tips: Break into simple parts so that we can see our progress. Write simple small codes that work No need to figure out all the details.
 
-# Concepts:
+![](media/807b5c8aee182baaa1713c01e98994f9.png)
+
 
 Now we look into the main topics that are being covered in most interviews/coding challenges. We also look into the patterns that appear in solutions which can be used in new problems. The goal is to understand the fundamentals and try to use them to solve problems.
 
-## Big O Notion:
+## Big O Notion
 
 As the input to an algorithm increases, the time required to run the algorithm may also increase.
 
@@ -148,13 +131,14 @@ Int , float 4 bytes
 
 char 1 byte
 
-## Comparison
-
-Finding the smallest of n numbers:(n-1)  
-Finding the biggest of n numbers:(n-1)  
-Finding the smallest and the biggest of n numbers:(2n-3)
-
-## Search
+## Binary Search
+What are time complexity of the following problems?  
+Finding the smallest of n numbers?  
+	• O(n-1)  
+Finding the biggest of n numbers? 
+	• O(n-1)  
+Finding the smallest and the biggest of n numbers?
+	• O(2n-3)
 
 **Binary search (Middle …. Middle, O (log(n)).:**
 
@@ -172,13 +156,13 @@ Finding the smallest and the biggest of n numbers:(2n-3)
 
 Middle, Middle, Middle.
 
-## Sorting:
+## Sorting
 
 **Bubble sort:**
 
 Simplest and most inefficient one O(n\^2)
 
-## Merge Sort (divide, merge):
+ **Merge Sort:**
 
 Using divide and conquer, first, we divide 2 by 2
 
@@ -194,7 +178,7 @@ O (n Log (n))
 
 Why we are seeing log (n) in our efficiency? Hint: same as binary search problem
 
-## Quick Sort (divide, merge):
+**Quick Sort:**
 
 Pick one and move it around
 
@@ -240,9 +224,9 @@ Everythin less than 8 are already below 8 so cemented
 
 **Efficiency:**
 
-**O(n2) if it’s already sorted. Why? Wasting time**
+O(n2) if it’s already sorted. Why? Wasting time
 
-## Dynamic programming:
+## Dynamic Programming
 
 (Programming == tables)
 
@@ -315,7 +299,8 @@ Suppose this number not a prime? 1324 if the answer is no it can be verified qui
 
 Class Co-NP: \_No\_ polytime
 
-## Greedy Algorithm (Best option at each step):
+## Greedy Algorithm
+(Best option at each step)
 
 ![](media/44d46f063fca4872104e6edb1a26e63d.png)
 
@@ -333,8 +318,8 @@ Example:
 
 Min operations example {see code}: By using while, in dividing numbers in half // == / and using
 
-## Graph algorithm (data structure that shows relation):
-
+## Graph Algorithm
+(data structure that shows relation)
 Graph(Tree is a subgroup of graph,Network) Nodes(Vertex) Edges
 
 ![](media/d5e6c36b1d10faaaf0d1ae40e3182cca.png)
@@ -359,7 +344,7 @@ Let’s define 3 variables
 
 Final answer we be the best solution out of these both (A[i] B[i] )
 
-# Technical Interview
+# 5. Technical Interview
 
 Now lets focus on the technical interviews. We tend to simplify the concepts by using memory palace techniques. I adivse everyone to develop a memory palace for algorithms/techniques that requrie knowledge about more than 6-7 steps.
 
@@ -448,11 +433,8 @@ Test cases: input None -\> return 0 so its working
 
 So [[1,0,1],[1,1,0). Go ahead, that looks good. Now I’m adding both of these. And I probably {} O looks like I forget to {add a return} Looks like it works.
 
-# Python programming:
 
 \<\<\<\<\<\<\< HEAD while(len(q)!= 0):
-
-**6. Debug:**
 
 And run it by
 
@@ -460,4 +442,19 @@ And run it by
 
 Looks like it works.
 
-![](media/28a37a2c4d8794faa0b22686c21cbece.png)
+
+# 6. Practice Problems
+DSA problems:
+-   [Algorithmic Thinking](https://www.amazon.com/Data-Structure-Algorithmic-Thinking-Python/dp/8192107590)
+-   [LeetCode](https://leetcode.com/)
+
+Machine Learning:
+-   [Cracking ML inteviews](https://github.com/shafaypro/CrackingMachineLearningInterview)
+-   [Machine Learning Interviews](https://github.com/khangich/machine-learning-interview)
+- -   [Interview Problems for ML engineers](https://mlengineer.io/common-leetcode-questions-by-categories-532b301130b)
+-   [Interview Problems + Solutions](https://github.com/ashfarhangi/Data-Structures-and-Algorithms/blob/master/Leetcode-Problems.ipynb)
+
+The following sources can be used for academia and research:
+-   [CLRS book](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844) 
+-   [COT 5405: Design & Analysis Algorithms](http://www.cs.ucf.edu/~sharma/COT5405)
+-   [COT 6410: Computational Complexity](http://www.cs.ucf.edu/courses/cot6410/Spring2021/COT6410Spring2021.html)
