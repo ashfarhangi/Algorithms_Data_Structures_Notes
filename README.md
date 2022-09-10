@@ -1,10 +1,10 @@
 # Data Structures and Algorithms
 
-These notes can be used to find top patterns for each category. Moreover, it can take an evening to refresh your knowledge or understand the important part of each pattern. I highly recommend the following materials (ordered by importance). This repository provides the notes taken from all these sources.
+These notes can be used to find top patterns for each category. Note that reading these notes can be much faster than watching videos. Moreover, it can take only take an evening to refresh your knowledge or understand the important part of each pattern. I highly recommend the following materials (ordered by importance). This repository provides the notes taken from all these sources.
 
--   [Udacity nano degree: Data Structures and Algorithms](https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256)
--   [Data Structures, Algorithms, and Machine Learning Optimization](https://www.oreilly.com/library/view/data-structures-algorithms/9780137644889/)
--   [Data Structures and Algorithmic Thinking With Python](https://www.amazon.com/Data-Structure-Algorithmic-Thinking-Python/dp/8192107590)
+-  [Udacity nano degree: Data Structures and Algorithms](https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256)
+-  [Data Structures and Algorithmic Thinking With Python](https://www.amazon.com/Data-Structure-Algorithmic-Thinking-Python/dp/8192107590)
+-  [Data Structures, Algorithms, and Machine Learning Optimization](https://www.oreilly.com/library/view/data-structures-algorithms/9780137644889/) [If you are intrested in ML]
 -   [Bari's YouTube playlist](https://www.youtube.com/watch?v=0IAPZzGSbME&list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O) [If you are a beginner]
 
 
@@ -225,6 +225,27 @@ Everythin less than 8 are already below 8 so cemented
 **Efficiency:**
 
 O(n2) if it’s already sorted. Why? Wasting time
+
+
+## Sliding Window 
+How to tell if its a sliding window problem?
+• Deals with arrays
+• Find/calculate among subarrays
+
+> Q: Given an array, find the average of each subarray of ‘K’ contiguous elements in it.
+
+
+Input: ![[Pasted image 20220910145630.png]]
+Output: ![[Pasted image 20220910145753.png]]
+Alg1: Bruteforce return the average for every 5 element 
+Time: O(N * K)
+• Its not optimal because we are calculating the sum of overlapping elements between subarray more than once.
+![[Pasted image 20220910150423.png]]
+• Why not use a sliding window and substract and add to the sum? 
+![[Pasted image 20220910150647.png]]
+Alg2: Sliding window
+
+
 
 ## Dynamic Programming
 
