@@ -339,6 +339,7 @@ Example:
 
 Min operations example {see code}: By using while, in dividing numbers in half // == / and using
 
+## 
 ## Graph Algorithm
 (data structure that shows relation)
 Graph(Tree is a subgroup of graph,Network) Nodes(Vertex) Edges
