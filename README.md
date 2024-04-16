@@ -68,14 +68,14 @@ Q: For inputs (dates), what are the valid inputs? Q: How input are encoded? (yyy
 
 **Step 2: Write simple code that works partially for the problem**
 
--   Chances are, you need to consider all possible conditions. Often, this results in getting stuck in finding the perfect solutions. Hence, its advisable that you find the simplest solution that works. E,g, solve with a single simple case.
+-   Chances are, you need to consider all possible conditions. Often, this results in getting stuck in finding the perfect solutions. Hence, it's advisable that you find the simplest solution that works. E,g, solve with a single simple case.
 
 Tips: Break into simple parts so that we can see our progress. Write simple small codes that work No need to figure out all the details.
 
 ![](media/807b5c8aee182baaa1713c01e98994f9.png)
 
 
-Now we look into the main topics that are being covered in most interviews/coding challenges. We also look into the patterns that appear in solutions which can be used in new problems. The goal is to understand the fundamentals and try to use them to solve problems.
+Now we look into the main topics that are being covered in most interviews/coding challenges. We also look into the patterns that appear in solutions that can be used in new problems. The goal is to understand the fundamentals and try to use them to solve problems.
 
 
 ## Binary Search
@@ -128,73 +128,11 @@ O (n log (n))
 
 **Q:** Why we are seeing log (n) in our efficiency? Hint: same as the binary search problem
 
-**Quick Sort:**
-Idea is to use pivots to sort the array.
 
-![](media/efb964d97b2648ca21e04162697e01e1.png)
-
-
-On each step we are performing two moving around.
-
-![](media/2aab5b68c0b0e7ea62486cfe66e08caa.png)
-
-(Pivot = Last element)
-
-1.  Select the rightmost element as the pivot
-2.  Shift Pivot to left by one element
-3.  Swap start and left
-4.  Compare Start with pivot. If (Start \> Pivot repeat step 2)
-5.  Else move to second start
-
-![](media/b41c1c2d2548c9e6940e3506ec84f34f.png)
-
-![](media/4def5b724f6f15c6b099ce425f8c4e09.png)
-
-![](media/4a3923fde43ff67cc4066b14626677b0.png)
-
-Why it can be chosen as the most efficient algorithm?
-
-Because on average it will outperform merge sort.
-
-
-**Great no need to move the original pivot anymore (2 is at the right place)**
-
-![](media/c018057d901372ab5b57e93742036550.png)
-
-Check 2 with lefts
-
-New pivot on right. Compare
-
-Moving phase
-
-Everything less than 8 and 10 sweep results in:  
-Everything less than 8 is already below 8
-
-![](media/c018057d901372ab5b57e93742036550.png)
 
 **Efficiency:**
 
 O(n2) if it’s already sorted. Why? Wasting time
-
-
-## Sliding Window 
-How to tell if it's a sliding window problem?
-• Deals with arrays
-• Find/calculate among subarrays
-
-> Q: Given an array, find the average of each subarray of ‘K’ contiguous elements in it.
-
-
-Input: ![[Pasted image 20220910145630.png]]
-Output: ![[Pasted image 20220910145753.png]]
-Alg1: Bruteforce returns the average for every 5 element 
-Time: O(N * K)
-• Its not optimal because we are calculating the sum of overlapping elements between subarrays more than once.
-![[Pasted image 20220910150423.png]]
-• Why not use a sliding window and subtract and add to the sum? 
-![[Pasted image 20220910150647.png]]
-Alg2: Sliding window
-
 
 
 ## Dynamic Programming
@@ -252,167 +190,20 @@ Longest common subsequent
 
 ![](media/1f11fb9b2ed3eb432764db5635531f54.png)
 
-## Complexity Theory
-
-Class P: n, n\^2,… (Any problem that can be solved in poly time)
-
-Class NP (Non deterministic): A set of decision problems where yes can be verified in polytime.
-
-Descion problems (answers are yes or no) can I go from a to be less than 100miles? Lets take traveling sales man. Optimization can I do this less than 100 miles?
-
-Is the answer more thaan 100? Yes is it lower than 200? 150? This way you will solve the problems
-
-Proof/verified/certificate Orlando – Atlanta – L.A
-
-Is this number a prime 234715307129734085? Hard to check
-
-Suppose this number not a prime? 1324 if the answer is no it can be verified quickly
-
-Class Co-NP: \_No\_ polytime
 
 ## Greedy Algorithm
-(Best option at each step)
+The best option at each step might not lead to the best results.
 
 ![](media/44d46f063fca4872104e6edb1a26e63d.png)
 
-ATM machine : 1,2,10,20,50,100\<
-
-Return: n\$ the number of bills should be minimized
-
-21\$ = 20 +1
-
-N= 365 – (3x100)- (1x50)-(1x10) – (1x 5)
-
-What about Target = 8?
-
-Example:
-
-Min operations example {see code}: By using while, in dividing numbers in half // == / and using
-
-## 
 ## Graph Algorithm
-(data structure that shows relation)
-Graph(Tree is a subgroup of graph,Network) Nodes(Vertex) Edges
+Graph is a data structure that is mostly used to shows relations.
 
 ![](media/d5e6c36b1d10faaaf0d1ae40e3182cca.png)
 
-Directed (non-directed), Acyclic, Connectivity
+Directed (non-directed), Acyclic
 
-Connectivity: You friends (social circle)
-
-As seen below, the right graph is stronger. In contrast, the left group can be dissolved if one of the connections drops.
-
-![](media/4c958b1e2b2f2c7a5c54dc66945872db.png)
-
-![](media/426dc47adbe8aa35d9ca78e2e77905be.png)
-
-Go through array reccursavley.
-
-![](media/9475b959311dc362995bdb778c55234b.png)
-
-Let’s define 3 variables
-
-![](media/9beca1381c793944285f552ff3a4842c.png)
-
-Final answer we be the best solution out of these both (A[i] B[i] )
-
-# 5. Technical Interview
-
-Now lets focus on the technical interviews. We tend to simplify the concepts by using memory palace techniques. I adivse everyone to develop a memory palace for algorithms/techniques that requrie knowledge about more than 6-7 steps.
-
-![](media/4fe578f16ea7ad1e9fd04d71fdea444a.png)
-
-The context should be asking questions and brainstorm at first. As you go on you rather than asking question everystep you must make statements and justify them.
-
-{so we can have null input like [] Is that right?} { I have a feeling that it might be useful in future steps}
-
-Example: So it contains integers right? So Null input is another input that we can have.
-
-Q:  
-A: Thanks it’s a pleasure to do interview with you. {Positive mindset} {Don’t give up}
-
-1.  **Clarifying the question {To prove you wont dive into the problem without learning more about it}**
-
-Q: Given a 2D matrix of m, Just 0 and 1. Count the number of islands in the matrix [island is a group of 1 or just 1 by itself.]
-
-A: ok so, we are given a 2D matrix which will look something like this.:
-
-[[1,0,1],[1,1,1)
-
-So, our goal is find the number of islands. Is the outcome the number? Or X? So if the are connected (I[1,0,0],[0,1,0],[0,0,1]) diagonally? Does that consider an island?
-
-So what we supposed to do is to find the number of
-
-{Just want to check Im solving the right problem…}
-
-1.  Generating inputs and outputs:
-
->   So my input is matrix of 0 s, 1 s (Integers, strings? No)
-
->   Output: Integer (\# of islands) (1s or group of ones)
-
-1.  Generating test cases:
-
->   {So just to test some cases {Special}}
-
->   {Can we get Is it ok we have }? Yes
-
-Q: number of island in a matrix
-
-\*\*1.Clarify the question \*\*
-
-A[[1,0,0),[1,1,0){Just to make sure I’m solving the right problem….}
-
-**2.Generating input/output**
-
-\<\<\<\<\<\<\< HEAD 1. Generating input/output
-
-Input matrix of integers
-
-Output integers ( number of islands 0- max{n})
-
-1.  {Trick \#1 you can always answer the null case to interviewer.}{ I have a feeling that it might be useful in future steps} **Test cases** [**Edge cases**] [ Possible weird inputs that we have to handle A or none object
-
-{Null - empty- Write a code that doesnt crash}
-
-1.  **Brainstorming** So if we have null, for sure we have 0 so there would be no islands in this case. ======= Input matrix of integers.Output integers (number of islands 0- max{n})
-
-**3.Test cases**: {Trick \#1 you can always answer the null case to interviewer.}{ I have a feeling that it might be useful in future steps} **Test cases** [**Edge cases**] [ Possible weird inputs that we have to handle A or none object.
-
-{Null - empty- Write a code that doesnt crash}
-
-**4.Brainstorming:** {Variables that needs to initialized} {so I need to track X} {And keep tracking} {Runtime error} {Data structure brainstorm algorithms and data structures} {Represent graph DFS problem} So if we have null, for sure we have 0 so there would be no islands in this case. \>\>\>\>\>\>\> 600e13278473db6cc40a022e79c37c0e0baa2b56
-
-But also we can have this as input (the input she wants) {So what I am thinking here} is start at the first element . So i need a counter **variable** and I **initialze** it there. And **increment** it by 1.
-
-We get to Zero. Thats not part of any island so I need to keep track of X. Hmmmm. Maybe I can look at the elements on top and bottom and check if they are on the same island and keep track of it. Since there is no above that. We get a run time error. Maybe it could a case of data structure we can solve this. {This might be a breath first search problem. I can look at the elements around it. **Set to mark** as **visited** and **keep going**
-
-**If you are stuck?** This represent a type of data structure and algorithm . Merge sort maybe… Keep talking
-
-\*\*5. Runtime anaylsis \*\*
-
-When I’m looking all the elements in matrix I’m looking at them atlease once so I’m thinking the runtime would be nXm where N is the number of rows and M is the number of columns. Well it seems like the optimal solution. So i think i start and jump on coding now.
-
-**6.Coding**
-
-So I’m calling my mainfunction islandCounter():
-
-Variable a,b,c If() While() For()
-
-**7.Debugging**
-
-Test cases: input None -\> return 0 so its working
-
-So [[1,0,1],[1,1,0). Go ahead, that looks good. Now I’m adding both of these. And I probably {} O looks like I forget to {add a return} Looks like it works.
-
-
-\<\<\<\<\<\<\< HEAD while(len(q)!= 0):
-
-And run it by
-
-{oh looks like I forget to}
-
-Looks like it works.
+The notion of connectivity: As seen below, the right graph is stronger. In contrast, the left group can be dissolved if one of the connections drops.
 
 
 # 6. Practice Problems
@@ -430,3 +221,56 @@ The following sources can be used for academia and research:
 -   [CLRS book](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844) 
 -   [COT 5405: Design & Analysis Algorithms](http://www.cs.ucf.edu/~sharma/COT5405)
 -   [COT 6410: Computational Complexity](http://www.cs.ucf.edu/courses/cot6410/Spring2021/COT6410Spring2021.html)
+
+## Archive:
+**Complexity Theory**## 
+
+Class P: n, n\^2,… (any problem that can be solved in polytime)
+
+Class NP (Nondeterministic):
+
+Class Co-NP: \_No\_ polytime
+
+**Quick Sort:**
+The idea is to use pivots to sort the array.
+
+![](media/efb964d97b2648ca21e04162697e01e1.png)
+
+
+On each step we are performing two moving around.
+
+![](media/2aab5b68c0b0e7ea62486cfe66e08caa.png)
+
+(Pivot = Last element)
+
+1.  Select the rightmost element as the pivot
+2.  Shift Pivot to left by one element
+3.  Swap start and left
+4.  Compare Start with pivot. If (Start \> Pivot repeat step 2)
+5.  Else move to second start
+
+![](media/b41c1c2d2548c9e6940e3506ec84f34f.png)
+
+![](media/4def5b724f6f15c6b099ce425f8c4e09.png)
+
+![](media/4a3923fde43ff67cc4066b14626677b0.png)
+
+Why it can be chosen as the most efficient algorithm?
+
+Because on average it will outperform merge sort.
+
+
+**Great no need to move the original pivot anymore (2 is at the right place)**
+
+![](media/c018057d901372ab5b57e93742036550.png)
+
+Check 2 with lefts
+
+New pivot on right. Compare
+
+Moving phase
+
+Everything less than 8 and 10 sweep results in:  
+Everything less than 8 is already below 8
+
+![](media/c018057d901372ab5b57e93742036550.png)
