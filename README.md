@@ -1,4 +1,4 @@
-![image](https://github.com/ashfarhangi/Data-Structures-and-Algorithms/assets/46503022/dd996054-507f-46a1-bd25-e7c28aed5d80)# Data Structures and Algorithms
+# Data Structures and Algorithms
 
 These notes can be used to find top patterns for each category of questions and concepts. Note that reading these notes can be much faster than watching videos. Also, it can be used to refresh your knowledge or understand the important parts of each pattern. This repository provides the key information presented from all these sources:
 
