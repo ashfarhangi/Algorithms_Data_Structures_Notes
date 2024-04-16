@@ -34,8 +34,7 @@ We keep the *m*. Given that it might be large. ![](media/sol.png)
 # 3. Data structures
 
 
-- List-based data structures: 
-![](types.png)
+![](media/types.png)
 - Common data structures:
 ![](media/28a37a2c4d8794faa0b22686c21cbece.png)
 - Big O notion
