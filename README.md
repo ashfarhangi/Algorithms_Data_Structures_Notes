@@ -1,4 +1,4 @@
-# Data Structures and Algorithms
+![image](https://github.com/ashfarhangi/Data-Structures-and-Algorithms/assets/46503022/dd996054-507f-46a1-bd25-e7c28aed5d80)# Data Structures and Algorithms
 
 These notes can be used to find top patterns for each category of questions and concepts. Note that reading these notes can be much faster than watching videos. Also, it can be used to refresh your knowledge or understand the important parts of each pattern. This repository provides the key information presented from all these sources:
 
@@ -20,6 +20,12 @@ These notes can be used to find top patterns for each category of questions and 
 Source: [Data Structures, Algorithms, and Machine Learning Optimization](https://www.oreilly.com/library/view/data-structures-algorithms/9780137644889/)
 # 2. Big O Notion
 
+The *rate of increase* of an algorithm is also referred to as the **order** of the algorithm
+
+For example, instead of saying "this relationship has a linear rate of increase", we could instead say, "The *order* of this relationship is linear".
+
+*O Notation*, and you'll see that the "O" in the name refers to the **o**rder of the rate of increase.
+
 ![](media/runfi.png)
 
 ![](media/runtime.png)
@@ -33,41 +39,25 @@ We keep the *m*. Given that it might be large. ![](media/sol.png)
 
 # 3. Data structures
 
-
-![](media/types.png)
 - Common data structures:
 ![](media/28a37a2c4d8794faa0b22686c21cbece.png)
 - Big O notion
 ![](media/best.png)
 
-Linked lists are not indexed. Only nodes are linked toghether. ![](media/linked.png)
+Linked lists are not indexed. Only nodes are linked together. ![](media/linked.png)
 
 ![](media/double.png)
 
--   Stacks are implemented as lists in python. s.append, s.pop
--   Queue: beginning and end are available. You can also take a peek of the first one.
--   Deques (دک) (Double ended- queue):
+-   Stacks are implemented as lists in Python. s.append, s.pop
+-   Queue: beginning and end are available. You can also take a peek at the first one.
+-   Deques (Double ended- queue):
 
 # 4. Algorithms
 
-The summary of **Data Structures and Algorithms** plus **Interview steps** from Udacity's nano degree "Data Structures and Algorithms".
-
-I’ve included the code for each concept in Python in the code folder. I would suggest to implement short codes for your projects or coding interviews.
+The summary of **Data Structures and Algorithms** plus **Interview steps**.
 
 ## Solution to any problems
-
-Think in simple terms:
-
-1.  What are the inputs
-2.  What are the outputs
-3.  Step-by-step ways that can connect the two
-
-**Next:**
-
-Do some examples on paper or on your mind. The trick is to find the correct **relationships** between input and output. Finally, you can test some cases and fine-tune your approach for special cases.
-
-Writing the algorithm can be done by writing the *pseudocode*.
-
+Take a look at a simple question like below:
 Question 1: Write an algorithm/program that returns the difference of two dates.
 
 **Step 1: Ask yourself the following questions**
@@ -87,121 +77,85 @@ Tips: Break into simple parts so that we can see our progress. Write simple smal
 
 Now we look into the main topics that are being covered in most interviews/coding challenges. We also look into the patterns that appear in solutions which can be used in new problems. The goal is to understand the fundamentals and try to use them to solve problems.
 
-## Big O Notion
-
-As the input to an algorithm increases, the time required to run the algorithm may also increase.
-
-For example in **Nested Loops**:
-
-\` For i in range(len(n)):
-
-```
-    For j in range(len(n)):
-```
-
-Print(“hello World”) \`
-
-n\^2
-
-Will increases the lines dramatically
-
-The *rate of increase* of an algorithm is also referred to as the **order** of the algorithm
-
-For example, instead of saying "this relationship has a linear rate of increase", we could instead say, "The *order* of this relationship is linear".
-
-*O Notation*, and you'll see that the "O" in the name refers to the **o**rder of the rate of increase.
-
-Length of input to my function
-
-O(2n+2) \> n=10 -\> 22
-
-In n\^2 + 5*n*2+5, the 55 has very little impact on the total efficiency—especially as the input size gets larger and larger. Asking the computer to do 10,005 operations vs. 10,000 operations makes little difference. Thus, it is the n\^2*n*2 that we really care about the most, and the + makes little difference
-
-Interviewer wants us to think about efficiency.
-
-Run time analysis
-
-O(3N) space efficiency (copying code)
-
-Int , float 4 bytes
-
-char 1 byte
 
 ## Binary Search
 What are time complexity of the following problems?  
 Finding the smallest of n numbers?  
-	• O(n-1)  
+
+	• Answer: O(n-1) ~ O(n)
+ 
 Finding the biggest of n numbers? 
-	• O(n-1)  
+
+	• Answer: O(n-1) ~ O(n)
+ 
 Finding the smallest and the biggest of n numbers?
-	• O(2n-3)
 
-**Binary search (Middle …. Middle, O (log(n)).:**
-
-![](media/393309480a114e09e85165f26cfdf15d.png)
-
-**Algorithm:** Tricks to solve a problem
-
+	• Answer: O(2n-3) ~ O(n)
 **Q:** How to find number 25 in this a sorted array?
-
 **A:**
 
 **1. Linear search: O(n)**
 
 **2. Binary Search:** O(log(n)+1) ( Why it is called binary search? find a postion of binary)
 
-Middle, Middle, Middle.
+![](media/393309480a114e09e85165f26cfdf15d.png)
+
 
 ## Sorting
 
 **Bubble sort:**
 
-Simplest and most inefficient one O(n\^2)
+![image](https://github.com/ashfarhangi/Data-Structures-and-Algorithms/assets/46503022/f79577f4-1ee4-4176-8887-c43884c2e741)
+![image](https://github.com/ashfarhangi/Data-Structures-and-Algorithms/assets/46503022/bebb63d7-2d01-4653-9b85-8475bf56b8fe)
+![image](https://github.com/ashfarhangi/Data-Structures-and-Algorithms/assets/46503022/92b909ff-b87f-4137-9216-cbd0f168a838)
+Simple but not efficient 
+T: $$O(n\^2)$$
+S: O(1)
 
  **Merge Sort:**
 
-Using divide and conquer, first, we divide 2 by 2
+Divide and Conquer: First, we divide 2 by 2
 
 ![](media/d60404983770ccf9700e87bf00057d26.png)
 
-Then we compare the elements
+Second, we compare the elements and join the elements
 
 ![](media/aedaa435d36c4f0f3cbf29d50034fdd2.png)
 
 Efficiency:
 
-O (n Log (n))
+O (n log (n))
 
-Why we are seeing log (n) in our efficiency? Hint: same as binary search problem
+**Q:** Why we are seeing log (n) in our efficiency? Hint: same as the binary search problem
 
 **Quick Sort:**
-
-Pick one and move it around
+Idea is to use pivots to sort the array.
 
 ![](media/efb964d97b2648ca21e04162697e01e1.png)
 
-Why it can be chosen as the most efficient algorithm?
-
-Because on average it will outperform merge sort.
 
 On each step we are performing two moving around.
 
 ![](media/2aab5b68c0b0e7ea62486cfe66e08caa.png)
 
-(Pivot = Last element) First move we move
+(Pivot = Last element)
 
-1.  Select right P
-2.  PL LS SP (Shift Pivot to left , Swap start and left)
-3.  Compare Start with pivot. If (Start \> Pivot repeat step 2)
-4.  Else move to second start
+1.  Select the rightmost element as the pivot
+2.  Shift Pivot to left by one element
+3.  Swap start and left
+4.  Compare Start with pivot. If (Start \> Pivot repeat step 2)
+5.  Else move to second start
 
 ![](media/b41c1c2d2548c9e6940e3506ec84f34f.png)
 
 ![](media/4def5b724f6f15c6b099ce425f8c4e09.png)
 
-I advise to practice this for cementing the algorithm.
-
 ![](media/4a3923fde43ff67cc4066b14626677b0.png)
+
+Why it can be chosen as the most efficient algorithm?
+
+Because on average it will outperform merge sort.
+
 
 **Great no need to move the original pivot anymore (2 is at the right place)**
 
@@ -213,8 +167,8 @@ New pivot on right. Compare
 
 Moving phase
 
-Everything less than 8 and 10 sweap results in:  
-Everythin less than 8 are already below 8 so cemented
+Everything less than 8 and 10 sweep results in:  
+Everything less than 8 is already below 8
 
 ![](media/c018057d901372ab5b57e93742036550.png)
 
@@ -224,7 +178,7 @@ O(n2) if it’s already sorted. Why? Wasting time
 
 
 ## Sliding Window 
-How to tell if its a sliding window problem?
+How to tell if it's a sliding window problem?
 • Deals with arrays
 • Find/calculate among subarrays
 
@@ -233,11 +187,11 @@ How to tell if its a sliding window problem?
 
 Input: ![[Pasted image 20220910145630.png]]
 Output: ![[Pasted image 20220910145753.png]]
-Alg1: Bruteforce return the average for every 5 element 
+Alg1: Bruteforce returns the average for every 5 element 
 Time: O(N * K)
-• Its not optimal because we are calculating the sum of overlapping elements between subarray more than once.
+• Its not optimal because we are calculating the sum of overlapping elements between subarrays more than once.
 ![[Pasted image 20220910150423.png]]
-• Why not use a sliding window and substract and add to the sum? 
+• Why not use a sliding window and subtract and add to the sum? 
 ![[Pasted image 20220910150647.png]]
 Alg2: Sliding window
 
@@ -247,7 +201,7 @@ Alg2: Sliding window
 
 (Programming == tables)
 
-Factorial problem in python:
+The factorial problem in Python:
 
 ![](media/c75f1ae6443175cde6bff55aaa014eda.png)
 
@@ -257,9 +211,9 @@ Knapsack problem: Max value for weight limit
 
 ![](media/8772bf182b4a29b45fa854704118a58d.png)
 
-Knapsack. Imagine the skyrim world where you can carry a certain weight (50kg) in your bag, how can you gather the most valuable items (3w,500v) with you?
+Knapsack. If you have to carry a weight (50kg) in your bag, how can you gather the most valuable items (e.g., 3 as the weight,500 as the value) with you?
 
-How you optimize which items with their weights to carry with you?
+How do you optimize which items with their weights to carry with you?
 
 1.  Brute force: Check all the solutions and pick the best one: O (2\^n) possible combinations. “exponential time”
 
