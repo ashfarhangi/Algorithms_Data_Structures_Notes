@@ -1,23 +1,21 @@
 # Data Structures and Algorithms
 
-These notes can be used to find top patterns for each category. Note that reading these notes can be much faster than watching videos. Moreover, it can take only take an evening to refresh your knowledge or understand the important part of each pattern. I highly recommend the following materials (ordered by importance). This repository provides the notes taken from all these sources.
+These notes can be used to find top patterns for each category of questions and concepts. Note that reading these notes can be much faster than watching videos. Also, it can be used to refresh your knowledge or understand the important parts of each pattern. This repository provides the key information presented from all these sources:
 
 -  [Udacity nano degree: Data Structures and Algorithms](https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256)
 -  [Data Structures and Algorithmic Thinking With Python](https://www.amazon.com/Data-Structure-Algorithmic-Thinking-Python/dp/8192107590)
--  [Data Structures, Algorithms, and Machine Learning Optimization](https://www.oreilly.com/library/view/data-structures-algorithms/9780137644889/) [If you are intrested in ML]
--   [Bari's YouTube playlist](https://www.youtube.com/watch?v=0IAPZzGSbME&list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O) [If you are a beginner]
+-  [Data Structures, Algorithms, and Machine Learning Optimization](https://www.oreilly.com/library/view/data-structures-algorithms/9780137644889/) [If you are interested in ML]
+-  [Bari's YouTube playlist](https://www.youtube.com/watch?v=0IAPZzGSbME&list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O) [If you are a beginner]
 
 
 # 1. Foundation
--   By large, CS concepts can be standalone. However, you might need to build upon other elements. For instance, in ML, there is a need for Linear Algebra, Calculus and Statistics.
+-   By large, CS concepts can be standalone. However, you might need to build upon other elements. For instance, in ML, there is a need for Linear Algebra, Calculus, and Statistics.
 ![](media/outline.png)
 -   Reasons for using DSA in ML:
     -   Finding the correct DS for various situations
         -   Be thoughtful for time/space complexity in:
             -   Model Training
-            -   Model deployment in larger scale
-                -   Software 2.0: Assuming the fixed batch size, Deep Learning algos typically have a constant time/space  complexity (GPU/RAM)
-        -   Implement ML models as graphs
+            -   Model deployment on a larger scale
 
 Source: [Data Structures, Algorithms, and Machine Learning Optimization](https://www.oreilly.com/library/view/data-structures-algorithms/9780137644889/)
 # 2. Big O Notion
@@ -26,18 +24,17 @@ Source: [Data Structures, Algorithms, and Machine Learning Optimization](https:/
 
 ![](media/runtime.png)
 
--   Shipping a dataset to datacenter has constant time (e.g. 24 hours). But uploading it to server is not.
--   For problems its advisable to find the best, worst and expected (average) Big O
--   
+-   Manually shipping a dataset stored in a hard drive to a data center has constant time (e.g. 24 hours). But uploading it to a server is not (route problems, encryption)
+-   For many problems, it's advisable to find the worst, best, and average Big O runtime complexity
 
 ![](media/arrays.png)
 
-We keep the *m*. Given that in might be large. ![](media/sol.png)
+We keep the *m*. Given that it might be large. ![](media/sol.png)
 
 # 3. Data structures
 
 
-- List based data structures: 
+- List-based data structures: 
 ![](types.png)
 - Common data structures:
 ![](media/28a37a2c4d8794faa0b22686c21cbece.png)
