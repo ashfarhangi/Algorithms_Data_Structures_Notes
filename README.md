@@ -3,8 +3,10 @@
 The landscape of coding interviews has evolved dramatically, becoming more challenging as we now have access to a plethora of coding problems. This increased competition means that merely understanding basic data structures and solving a handful of problems is no longer sufficient. This repository serves as a comprehensive guide to tackling these complexities. It is designed to help you master the intricacies of data structures and algorithms through a structured and pattern-based approach. Here, we break down the most common and challenging coding interview questions into understandable patterns, providing you with the tools to recognize and solve similar problems.
 
 # 1. Foundation
--   By large, CS concepts can be standalone. However, you might need to build upon other elements. For instance, in ML, there is a need for Linear Algebra, Calculus, and Statistics.
+-   By large, Computer Science concepts are seen as standalone. However, you might need to use it to build upon other elements.
 ![](media/outline.png)
+
+ For instance, in Machine Learning, there is a need for Linear Algebra, Calculus, and Statistics.
 -   Reasons for using DSA in ML:
     -   Finding the correct DS for various situations
         -   Be thoughtful for time/space complexity in:
