@@ -1,12 +1,6 @@
 # Data Structures and Algorithms
 
-These notes can be used to find top patterns for each category of questions and concepts. Note that reading these notes can be much faster than watching videos. Also, it can be used to refresh your knowledge or understand the important parts of each pattern. This repository provides the key information presented from all these sources:
-
--  [Udacity nano degree: Data Structures and Algorithms](https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256)
--  [Data Structures and Algorithmic Thinking With Python](https://www.amazon.com/Data-Structure-Algorithmic-Thinking-Python/dp/8192107590)
--  [Data Structures, Algorithms, and Machine Learning Optimization](https://www.oreilly.com/library/view/data-structures-algorithms/9780137644889/) [If you are interested in ML]
--  [Bari's YouTube playlist](https://www.youtube.com/watch?v=0IAPZzGSbME&list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O) [If you are a beginner]
-
+The landscape of coding interviews has evolved dramatically, becoming more challenging as we now have access to a plethora of coding problems. This increased competition means that merely understanding basic data structures and solving a handful of problems is no longer sufficient. This repository serves as a comprehensive guide to
 
 # 1. Foundation
 -   By large, CS concepts can be standalone. However, you might need to build upon other elements. For instance, in ML, there is a need for Linear Algebra, Calculus, and Statistics.
@@ -207,6 +201,15 @@ The notion of connectivity: As seen below, the right graph is stronger. In contr
 
 
 # 6. Practice Problems
+Sources to learn more: 
+-  [Udacity nano degree: Data Structures and Algorithms](https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256)
+-  [Data Structures and Algorithmic Thinking With Python](https://www.amazon.com/Data-Structure-Algorithmic-Thinking-Python/dp/8192107590)
+-  [Data Structures, Algorithms, and Machine Learning Optimization](https://www.oreilly.com/library/view/data-structures-algorithms/9780137644889/) [If you are interested in ML]
+-  [Bari's YouTube playlist](https://www.youtube.com/watch?v=0IAPZzGSbME&list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O) [If you are a beginner]
+
+
+
+
 DSA problems:
 -   [Algorithmic Thinking](https://www.amazon.com/Data-Structure-Algorithmic-Thinking-Python/dp/8192107590)
 -   [LeetCode](https://leetcode.com/)
