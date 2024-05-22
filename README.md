@@ -2,6 +2,10 @@
 
 The landscape of coding interviews has evolved dramatically, becoming more challenging as we now have access to a plethora of coding problems. This increased competition means that merely understanding basic data structures and solving a handful of problems is no longer sufficient. This repository serves as a comprehensive guide to tackling these complexities. It is designed to help you master the intricacies of data structures and algorithms through a structured and pattern-based approach. Here, we break down the most common and challenging coding interview questions into understandable patterns, providing you with the tools to recognize and solve similar problems.
 
+<iframe style="width:100%;height:auto;min-width:600px;min-height:400px;" src="https://star-history.com/embed?secret=#ashfarhangi/Summary_Leetcode_Algorithms_Data_Structures&Date" frameBorder="0"></iframe>
+
+
+
 # 1. Foundation
 -   By large, Computer Science concepts are seen as standalone. However, you might need to use it to build upon other elements.
 ![](media/outline.png)
