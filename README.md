@@ -1,7 +1,6 @@
 # Data Structures and Algorithms
 
-The landscape of coding interviews has evolved dramatically, becoming more challenging as we now have access to a plethora of coding problems. This increased competition means that merely understanding basic data structures and solving a handful of problems is no longer sufficient. This repository serves as a comprehensive guide to tackling these complexities. It is designed to help you master the intricacies of data structures and algorithms through a structured and pattern-based approach. Here, we break down the most common and challenging coding interview questions into understandable patterns, providing you with the tools to recognize and solve similar problems.
-
+Here are usesful notes gathered over the years on the topic of DSA. This Repo is begineer friendly, focused mostly on the parts I've interviewed candidates on over the years. Seems like it all falls back to the Big O notion, optimizing a problem further to showcase your understanding of different algorithms and their complexity.
 
 [![Star History Chart](https://api.star-history.com/svg?repos=ashfarhangi/Summary_Leetcode_Algorithms_Data_Structures&type=Date)](https://star-history.com/#ashfarhangi/Summary_Leetcode_Algorithms_Data_Structures&Date)
 
