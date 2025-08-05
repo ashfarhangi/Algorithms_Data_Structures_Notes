@@ -1,6 +1,6 @@
 # Data Structures and Algorithms
 
-Here are usesful notes gathered over the years on the topic of DSA. This Repo is begineer friendly, focused mostly on the parts I've interviewed candidates on over the years. Seems like it all falls back to the Big O notion, optimizing a problem further to showcase your understanding of different algorithms and their complexity.
+Here are usesful notes gathered over the years on the topic of DSA. This Repo is begineer friendly, focused mostly on the parts I've interviewed candidates on over the years. Seems like it all falls back to the Big O notion, optimizing a problem further to showcase your understanding of different algorithms and their complexities.
 
 [![Star History Chart](https://api.star-history.com/svg?repos=ashfarhangi/Summary_Leetcode_Algorithms_Data_Structures&type=Date)](https://star-history.com/#ashfarhangi/Summary_Leetcode_Algorithms_Data_Structures&Date)
 
